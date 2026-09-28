@@ -1,0 +1,94 @@
+rid,flujo,tipo_cambio,campo,valor_auditado,valor_actual,motivo
+D-W4415776450,dirigida,estado de selección,estado,CE2,INCLUIDO,recribado con el texto completo
+D-W2741861607,dirigida,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+D-W7133017529,dirigida,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+D-W7133047130,dirigida,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+D-W2562174527,dirigida,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+D-W2885496033,dirigida,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+D-W4396679114,dirigida,estado de selección,estado,NO_EVALUABLE,NO-CI1,resumen de otro trabajo retirado y recribado
+D-W4406905674,dirigida,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+D-W7169652653,dirigida,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4241587546,principal,estado de selección,estado,CE1,NO_EVALUABLE,resumen de otro trabajo retirado y recribado
+W2573638367,principal,estado de selección,estado,CE1,CE5,CE5 por resumen casi idéntico y autores en común
+W2586169317,principal,estado de selección,estado,CE3,CE5,CE5 por resumen casi idéntico y autores en común
+W7163087982,principal,estado de selección,estado,CE4,CE5,CE5 por resumen casi idéntico y autores en común
+W2725087702,principal,estado de selección,estado,INCLUIDO,CE5,CE5 por resumen casi idéntico y autores en común
+W3201480519,principal,estado de selección,estado,INCLUIDO,CE1,resumen de otro trabajo retirado y recribado
+W7125680459,principal,estado de selección,estado,INCLUIDO,CE5,CE5 por resumen casi idéntico y autores en común
+W2186182930,principal,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+W2562917424,principal,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+W7164460387,principal,estado de selección,estado,NO-CI1,CE5,CE5 por resumen casi idéntico y autores en común
+W1807706124,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W2935193705,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W2496251943,principal,estado de selección,estado,NO_EVALUABLE,CE2,recribado con el texto completo
+W2914587112,principal,estado de selección,estado,NO_EVALUABLE,CE1,recribado con el texto completo
+W2982880800,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4212920838,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4285148038,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4388198630,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4396736584,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4399203757,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4402652005,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4404887250,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4406744209,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4408162704,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4408864216,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W4411811291,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W4414219779,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W7130950848,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+W7140198384,principal,estado de selección,estado,NO_EVALUABLE,INCLUIDO,recribado con el texto completo
+W7151580078,principal,estado de selección,estado,NO_EVALUABLE,NO-CI1,recribado con el texto completo
+K-N8,ronda2_kappa,estado de selección,estado,CE2,INCLUIDO,recribado con el texto completo
+K-N18,ronda2_kappa,campo de extracción,tarea_principal,similitud_y_recuperacion,trazabilidad,corrección de la cita o de la clasificación del 27-sep-2026 (columna correcciones_cita de la selección)
+K-N18,ronda2_kappa,campo de extracción,recursos,BERT (usa); LLM (modelos de lenguaje) (usa); similitud semántica (usa),BERT (usa); LLM (usa),recribado: texto completo
+K-N4,ronda2_kappa,campo de extracción,recursos,fastText (usa),BETO (usa); fastText (usa),recribado: texto completo
+K-N4,ronda2_kappa,campo de extracción,cita_tarea,automatic classification of non-functional requirements,This research aims to analyze the performance metrics to classify requirements into sub-classes of non-functional type,recribado: texto completo
+W2727599902,principal,campo de extracción,cita_tarea,Software requirement traceability analysis using text mining methods,text mining based methods are proposed for requirement traceability analysis,recribado: resumen
+W2972931502,principal,campo de extracción,cita_tarea,an automated semantic similarity based approach ... for identification of NFR from requirements documents,This study proposed an automated semantic similarity based approach which does not needs pre-categorized requirements for identification of NFR from requirements documents,corrección de la cita o de la clasificación del 27-sep-2026 (columna correcciones_cita de la selección)
+W4376278613,principal,campo de extracción,tarea_principal,similitud_y_recuperacion,extraccion_a_modelos_u_ontologias,recribado: resumen
+W4376278613,principal,campo de extracción,recursos,semantic similarity (usa),semantic similarity of user stories (usa),recribado: resumen
+W4376278613,principal,campo de extracción,cita_tarea,"a semantic grouping algorithm (SEMGROMI), a technique that takes user stories... and identifies number and scope of candidate microservices using semantic similarity",identifies number and scope of candidate microservices using semantic similarity of the user stories’ textual description,recribado: resumen
+W4386820266,principal,campo de extracción,recursos,Local Large Language Models (usa),large language models (usa),recribado: resumen
+W4402330752,principal,campo de extracción,tipo_contribucion,herramienta_o_framework,metodo_o_tecnica,recribado: resumen
+W4402330752,principal,campo de extracción,cita_tarea,automatically establish traceability between requirements and Model-Based Systems Engineering (MBSE),allows to establish links between requirements and Model‐Based Systems Engineering (MBSE) in a semi‐automatic way,recribado: resumen
+W4405826651,principal,campo de extracción,tipo_contribucion,metodo_o_tecnica,herramienta_o_framework,recribado: texto completo
+W4405826651,principal,campo de extracción,recursos,large language model (usa),BERT (solo_menciona); ChatGPT (compara_o_evalua); LLM (Large Language Model) (usa),recribado: texto completo
+W4405826651,principal,campo de extracción,cita_tarea,Generating database schema from requirement specification,translating them into a structured database schema,recribado: texto completo
+W4406905466,principal,campo de extracción,recursos,pre-trained Natural Language Processing models (compara_o_evalua),"GloVe (solo_menciona); SBERT (Sentence-BERT) models: paraphrase-multilingual-MiniLM-L12-v2, distiluse-base-multilingual-cased-v2, paraphrase-multilingual-mpnet-base-v2, multilingual-e5-small (usa); Word2Vec (solo_menciona); fastText (usa)",recribado: texto completo
+W4406905466,principal,campo de extracción,cita_tarea,detect similar scenarios and prevent redundancy,"to analyze the semantic similarity between scenarios in Spanish, identifying words or phrases with equivalent meanings",recribado: texto completo
+W4410357310,principal,campo de extracción,lengua_datos,no_declarada,espanol,recribado: texto completo
+W4410357310,principal,campo de extracción,disponibilidad,no_declarada,codigo_o_datos_publicos,recribado: texto completo
+W4410357310,principal,campo de extracción,recursos,pre-trained models (usa),BERT (solo_menciona); MiniLM-L12-v2 (usa); Word2vec (SBWCE) (usa); WordNet (solo_menciona); distiluse-cased-v2 (usa); fastText (usa); mpnet-base-v2 (usa),recribado: texto completo
+W4410357310,principal,campo de extracción,cita_tarea,identifying similarities between new and existing requirements,identifying similarities between new and existing requirements can help avoid additional effort and duplication,recribado: texto completo
+W4410393794,principal,campo de extracción,cita_tarea,automated identification and classification of NFRs in agile textual requirements documented as user stories,This study evaluates transformer-based models for the automated identification and classification of NFRs,corrección de la cita o de la clasificación del 27-sep-2026 (columna correcciones_cita de la selección)
+W4412703855,principal,campo de extracción,cita_tarea,their potential to assist in requirements question answering (QA),This paper evaluates the capabilities of large language models (LLMs) in understanding aerospace software requirements and their potential to assist in requirements question answering (QA),recribado: resumen
+W4414165984,principal,campo de extracción,recursos,All-DistilRoBERTa (compara_o_evalua); All-MPNET (compara_o_evalua); GPT-4o (compara_o_evalua); Llama3 (compara_o_evalua); NoRBERT (compara_o_evalua),All-DistilRoBERTa (usa); All-MPNET (usa); GPT-4o (usa); Llama3 (usa); NoRBERT (compara_o_evalua),recribado: resumen
+W4414165984,principal,campo de extracción,cita_tarea,effectiveness of ZS and FS PLMs ... in classifying functional vs. non-functional requirements and non-functional subtypes,"in classifying functional vs. non-functional requirements and non-functional subtypes, such as usability, security, operational, and performance requirements",corrección de la cita o de la clasificación del 27-sep-2026 (columna correcciones_cita de la selección)
+W4416277188,principal,campo de extracción,cita_tarea,a semantic pruning framework that uses advanced NLP techniques ... to find and eliminate superfluous requirements from SRS documents,to find and eliminate superfluous requirements from SRS documents,recribado: resumen
+W7125599509,principal,campo de extracción,tipo_contribucion,metodo_o_tecnica,estudio_empirico_o_comparativo,recribado: resumen
+W7125599509,principal,campo de extracción,recursos,eight LLMs (compara_o_evalua); gemini-1.5-pro (compara_o_evalua); llama-3.3-70B (compara_o_evalua),gemini-1.5-pro (compara_o_evalua); llama-3.3-70B (compara_o_evalua),recribado: resumen
+W7125599509,principal,campo de extracción,cita_tarea,"generating corresponding NFRs, aiding systematic integration","generating 1,593 NFRs",recribado: resumen
+W7125972964,principal,campo de extracción,cita_tarea,this paper investigates the use of Large Language Models (LLMs) ... as an analyzer for complex semantic and pragmatic quality dimensions,Enhancing Automated User Story Quality Assessment with Large Language Models,recribado: resumen
+W7140210573,principal,campo de extracción,disponibilidad,no_declarada,codigo_o_datos_publicos,recribado: texto completo
+W7140210573,principal,campo de extracción,recursos,Large Language Models (usa),ChatGPT-4 (solo_menciona); Gemma 2 (usa); Llama 2 (usa); Llama 3 (usa); Mistral (usa); Phi-3 Mini (usa),recribado: texto completo
+W7140210573,principal,campo de extracción,cita_tarea,Evaluating Large Language Models for Classification and Specification Tasks,"We evaluate five lightweight open-source LLMs on three RE tasks: user request classification, NFR classification, and re￾quirements specification generation.",recribado: texto completo
+W7155071433,principal,campo de extracción,recursos,Large Language Models (LLMs) (usa); Retrieval-Augmented Generation (RAG) system (construye_o_amplia),LLMs (large language models) (usa),recribado: resumen
+W7155071433,principal,campo de extracción,cita_tarea,evaluating the reliability and stability of LLMs in supporting critical decisions driving the adoption of wearable devices in the elderly population,an experimental evaluation of the reliability and stability of LLMs in supporting critical decisions driving the adoption of wearable devices in the elderly population,corrección de la cita o de la clasificación del 27-sep-2026 (columna correcciones_cita de la selección)
+W7166357155,principal,campo de extracción,tipo_contribucion,estudio_empirico_o_comparativo,metodo_o_tecnica,recribado: resumen
+W7166357155,principal,campo de extracción,recursos,Claude Sonnet 4.0 (compara_o_evalua); GPT-5 (compara_o_evalua); Gemini 2.5 Flash Thinking (compara_o_evalua); Grok (usa); Llama-3.1-8B-Instruct (compara_o_evalua); Mistral (usa),Claude Sonnet 4.0 (usa); GPT-5 (usa); Gemini 2.5 Flash Thinking (usa); Grok (usa); Llama-3.1-8B-Instruct (usa); Mistral (usa),recribado: resumen
+W7166357155,principal,campo de extracción,cita_tarea,investigates the capabilities of state-of-the-art LLMs...to generate UML class diagrams from natural language requirements automatically,generate UML class diagrams from natural language requirements automatically,recribado: resumen
+D-W4415776450,dirigida,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+K-N8,ronda2_kappa,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4396736584,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4399203757,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4402652005,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4406744209,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4408162704,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W4408864216,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W7140198384,principal,entra en la extracción,rid,,INCLUIDO,recribado con el texto completo
+W2725087702,principal,sale de la extracción,rid,INCLUIDO,CE5,CE5 por resumen casi idéntico y autores en común
+W3201480519,principal,sale de la extracción,rid,INCLUIDO,CE1,resumen de otro trabajo retirado y recribado
+W7125680459,principal,sale de la extracción,rid,INCLUIDO,CE5,CE5 por resumen casi idéntico y autores en común
+D-W4415776450,dirigida,cita sustituida,recursos[FastText].cita,"FastText is a text vectorization itself, and at the same time, it can perform classification tasks","three DL algorithms: CNN, BETO, and FastText",la cita describía FastText con palabras que no están en el texto; se sustituye por el pasaje que nombra su uso
+W4410393794,principal,cita sustituida,cita_requisitos,automated identification and classification of NFRs in agile textual requirements documented as user stories,Non-functional requirements (NFRs) are critical factors for software quality and success,paráfrasis: la cita reformulaba «to automate the identification and classification of NFRs»
+W2727599902,principal,cita sustituida,cita_requisitos,requirement traceability process of the software architecture,requirement traceability analysis which is one of the most essential steps in the software life cycle,paráfrasis: la cita decía «requirement traceability process» y el texto dice «requirements traceability process»

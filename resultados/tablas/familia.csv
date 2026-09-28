@@ -1,0 +1,12 @@
+categoria,n,denominador,porcentaje
+codificador_bert,117,533,21.9512
+embeddings,67,533,12.5704
+grafo_conocimiento,30,533,5.6285
+llm_generativo,265,533,49.7186
+marcos_roles,17,533,3.1895
+ontologia,47,533,8.8180
+otro,10,533,1.8762
+similitud_semantica,49,533,9.1932
+tesauro_glosario,8,533,1.5009
+transformer_otro,39,533,7.3171
+wordnet,11,533,2.0638

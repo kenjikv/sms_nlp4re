@@ -1,0 +1,18 @@
+name: Validar datos y resultados
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  consistencia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verificar integridad del paquete
+        run: python scripts/verificar_integridad.py
+      - name: Reproducir datos sin dependencias externas
+        run: python scripts/reproducir.py --sin-figuras
+      - name: Comprobar que las tablas versionadas se reproducen
+        run: git diff --exit-code -- datos/extraccion datos/auditoria/normalizacion_repositorio.csv resultados/resultados.json resultados/seleccion.json resultados/tablas

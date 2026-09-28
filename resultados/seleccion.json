@@ -1,0 +1,24 @@
+{
+  "identificados": 1746,
+  "flujos": {
+    "principal": 1457,
+    "dirigida": 278,
+    "ronda2_kappa": 11
+  },
+  "duplicados": 106,
+  "cribados": 1640,
+  "incluidos": 539,
+  "no_evaluados": 267,
+  "excluidos": 834,
+  "estados": {
+    "NO_EVALUABLE": 267,
+    "NO-CI1": 479,
+    "INCLUIDO": 539,
+    "CE5": 106,
+    "CE6": 53,
+    "CE1": 145,
+    "CE3": 88,
+    "CE2": 60,
+    "CE4": 9
+  }
+}

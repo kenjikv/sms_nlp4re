@@ -1,0 +1,248 @@
+# Diccionario de datos
+
+Este diccionario cubre todos los campos de los CSV del directorio `datos/`. El [esquema por archivo](esquema_datos.json) incluye tipo observado, valores vacíos y categorías cuando son pocas; el [catálogo](CATALOGO_DATOS.csv) indica filas, columnas y huellas. Los tipos son observados en esta versión, no restricciones universales para nuevas investigaciones.
+
+## Reglas de lectura
+
+- Una celda vacía no equivale a «no» ni a cero.
+- Los booleanos del CSV suelen ser `True` y `False`; en una lista JSON son `true` y `false`.
+- `estado` es la selección definitiva; `decision_final` conserva una fase previa.
+- `rid` vincula registros. `unidad` vincula recursos. No todas las menciones genéricas tienen inventario de recurso concreto.
+- «Verificada» significa comprobación documental automatizada según la entrega. No acredita por sí sola revisión humana.
+- La extracción canónica recalcula `n_metricas_verificadas` desde `metricas`; los campos históricos quedan en sus instantáneas.
+
+## Estructuras JSON principales
+
+| Campo | Estructura de los elementos | Uso |
+| --- | --- | --- |
+| `recursos` | `nombre`, `familia`, `rol`, `cita` | Familias y atribución del uso; excluir `solo_menciona` |
+| `recursos_verif` | Lista de indicadores | Comprobaciones de los recursos en la extracción recibida |
+| `metricas` | `nombre`, `canonico`, `cita`, `verificada` | Contar categorías con `verificada=true`, una vez por estudio |
+| `conjuntos_datos` | `nombre`, `canonico`, `cita`, `verificada` | Contar conjuntos con `verificada=true`, una vez por estudio |
+| `tareas_secundarias` | Lista de categorías | Información complementaria; no sustituye la tarea principal |
+
+Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no garantizan por sí solos que una herramienta o colección citada sea un banco de evaluación formal. El recuento reproduce esas anotaciones y mantiene esta limitación.
+
+## Campos
+
+| Campo | Definición y alcance |
+| --- | --- |
+| `CE5` | Booleano textual de duplicación o versión redundante, coherente con estado CE5. |
+| `acceso` | Modalidad de acceso documentada para el recurso. |
+| `accion` | Acción documentada para resolver la incidencia. |
+| `accion_para_reabrir` | Evidencia o acción requerida para reconsiderar el pendiente. |
+| `alcance_licencia` | Componente o versión a los que se aplica la evidencia de licencia. |
+| `anio` | Año bibliográfico registrado. 2026 tiene cobertura parcial. |
+| `anterior` | Valor antes de la corrección. |
+| `aporta_espanol` | Indicador de contribución relativa al español según la extracción recibida. |
+| `aporta_espanol_b` | Indicador auxiliar heredado sobre aportación al español; no sustituye lengua_datos. |
+| `archivo` | Archivo al que hace referencia la incidencia. |
+| `archivo_arxiv` | Nombre de archivo de trabajo declarado; el archivo no se redistribuye necesariamente. |
+| `artifact_id` | Identificador de artefacto del sistema que generó la entrega original. |
+| `arxiv_id` | Identificador de arXiv recuperado, cuando consta. |
+| `arxiv_title` | Título asociado al resultado de arXiv. |
+| `autor` | Responsable o procedimiento consignado en el registro de cambio/incidencia. |
+| `autores` | Autoría bibliográfica de la publicación, en el formato recibido. |
+| `base_decision` | Texto disponible para decidir: título, título y resumen, o fragmentos/inicio del texto completo. |
+| `base_texto` | Tipo de evidencia textual utilizado por el procedimiento o asociado al par. |
+| `busqueda_texto_completo` | Detalle o estado de búsqueda de texto completo para el pendiente. |
+| `campo` | Columna afectada por la corrección registrada. |
+| `caracteres` | Número de caracteres Unicode del texto usado por registro. |
+| `ce4_script` | Indicador auxiliar del filtro automatizado de idioma. |
+| `chars` | Longitud de texto registrada en el intento de recuperación. |
+| `cita` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_acceso` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_disponibilidad` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_espanol` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_evaluacion` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_lengua_datos` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_licencia` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_linea_base` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_pln` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_requisitos` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_soporte_espanol` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_tarea` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_tarea_localizada` | Indicador de localización del pasaje sobre la tarea; no valida su interpretación. |
+| `cita_tipo` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_transferencia` | Pasaje de la fuente aportado como evidencia del atributo indicado; conserva los derechos de su fuente. |
+| `cita_verificada` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `citas_criticas_fallidas` | Resultado heredado de comprobaciones fallidas en citas críticas. |
+| `citas_decisivas_no_localizadas` | Citas decisivas que no pudieron localizarse en la base textual disponible. |
+| `clase_alternativa` | Adaptación, versión multilingüe, alternativa distinta o ausencia de alternativa identificada. |
+| `clase_licencia` | Categoría de licencia de trabajo. |
+| `compara_con_linea_base` | Declaración de comparación con una referencia; no garantiza comparación experimental equivalente. |
+| `con_resumen` | Indicador recibido de disponibilidad de resumen. |
+| `conjuntos_datos` | Lista JSON de conjuntos de evaluación con nombre, cita, verificada y canonico. |
+| `conjuntos_datos_canonicos` | Nombres canónicos de conjuntos con evidencia comprobada, separados por punto y coma. |
+| `conservado_en_lugar` | rid del registro conservado en lugar del duplicado; no implica inclusión del destino. |
+| `consigna` | Identificador o descripción de la consigna recibida; no contiene necesariamente su texto completo. |
+| `consulta_ok` | Indicador de éxito de la consulta, distinto de elegibilidad del estudio. |
+| `contenido` | Descripción de contenido en el manifiesto original. |
+| `contraste_referencia_previa` | Resultado del contraste respecto de esa referencia anterior. |
+| `correcciones_cita` | Registro de ajustes de pasajes citados. |
+| `cuenta_como_uso_rq3` | True selecciona los 318 pares únicos del denominador principal de RQ3. |
+| `cuenta_en_tabla_15` | Indicador de una tabla de trabajo histórica; no identifica la numeración del manuscrito v6. |
+| `decision_auto` | Decisión automática agregada conservada como trazabilidad. |
+| `decision_final` | Decisión heredada de una fase anterior. Pese al nombre, no reemplaza estado. |
+| `decision_p1` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `decision_p2` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `decision_p3` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `destino` | Destino del registro tras el cierre de recuperación. |
+| `detalle` | Descripción de la incidencia recibida. |
+| `deteccion` | Procedencia y alcance de detección/contraste declarados por el archivo de origen. |
+| `disponibilidad` | Declaración de disponibilidad de código o datos, no prueba de acceso efectivo. |
+| `doi` | DOI conservado en la tabla, cuando consta; no se inventa si falta. |
+| `dominio_pdf` | Dominio de procedencia de la copia localizada. |
+| `en_recribado` | Indicación de participación en la reconsideración. |
+| `es_retractacion` | Indicador recibido sobre retractación o documento de retractación. |
+| `escenario_824` | Etiqueta de un escenario histórico de trabajo; no se utiliza como corpus vigente. |
+| `estabilidad` | Concordancia o estabilidad entre pasadas automáticas, no acuerdo entre personas. |
+| `estado` | Estado definitivo tras las correcciones y deduplicación; usarlo para reconstruir el flujo. |
+| `estado_actual_previo` | Estado registrado antes de la resolución de la incidencia. |
+| `estado_incidencia` | Estado de resolución de la incidencia en la entrega. |
+| `estado_registro` | Estado del registro según la tabla de incidencias; el estado definitivo se consulta en selección. |
+| `estado_rq3` | Categoría final de evidencia y alternativa para español, utilizada en la síntesis RQ3. |
+| `estado_rq3_unidades` | Estados lingüísticos de las unidades asociadas al estudio. |
+| `estado_texto_completo` | Estado de recuperación de texto completo registrado. |
+| `estado_verificacion` | Estado de verificación documental recibido; no equivale a validación humana global. |
+| `estatus_soporte` | Estado agregado de soporte documental del español. |
+| `estudios` | Número de estudios asociado a la unidad según el inventario recibido. |
+| `etapa_julio` | Etapa registrada en el proceso histórico de julio; conservada para trazabilidad. |
+| `eval_consigna` | Identificador declarado de la consigna para extraer evaluación. |
+| `eval_estabilidad` | Concordancia entre pasadas automáticas de extracción de evaluación. |
+| `eval_modelo` | Modelo/procedimiento declarado para extraer evaluación. |
+| `eval_nota` | Nota del procedimiento sobre evaluación. |
+| `eval_pasada1` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `eval_pasada2` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `eval_pasada3` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
+| `evidencia_complementaria` | Evidencia adicional sobre la unidad. |
+| `familia` | Familia de recurso asignada; un estudio puede tener varias. |
+| `fecha_cierre_recuperacion` | Fecha declarada de cierre de los intentos de recuperación. |
+| `fecha_consulta` | Fecha de consulta declarada de las fuentes de atributos del recurso. |
+| `fecha_estado` | Fecha del estado consignado en la tabla de incidencias. |
+| `fichero` | Nombre del archivo en el manifiesto de origen. |
+| `fila_csv` | Número de fila registrado en el archivo de origen; no garantiza igual posición tras reordenar. |
+| `filas` | Número de filas declarado en el manifiesto de origen. |
+| `flags` | Alertas del procedimiento recibido. |
+| `flujo` | Procedencia: principal, dirigida o ronda2_kappa. No mezclar denominadores entre flujos. |
+| `found` | Indicador recibido de que se localizó una copia o resultado. |
+| `fuente_acceso` | Referencia o dirección de la fuente que respalda el atributo indicado. |
+| `fuente_autores` | Procedencia declarada de la autoría bibliográfica. |
+| `fuente_licencia` | Referencia o dirección de la fuente que respalda el atributo indicado. |
+| `fuente_soporte_espanol` | Referencia o dirección de la fuente que respalda el atributo indicado. |
+| `fuente_transferencia` | Referencia o dirección de la fuente que respalda el atributo indicado. |
+| `grupo` | Grupo temático de la conciliación numérica histórica. |
+| `grupo_v` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
+| `homogeneidad_versiones` | Evaluación documental de homogeneidad de variantes agrupadas. |
+| `identidad_documental` | Estado del contraste de identidad entre título, resumen y fuente. |
+| `identidad_motivo` | Razón del resultado del contraste de identidad. |
+| `idioma_texto` | Idioma del texto bibliográfico; distinto de lengua_datos. |
+| `indice_recurso` | Posición del recurso en la extracción de origen. |
+| `informacion_suficiente` | Evaluación asistida de suficiencia de información para decidir. |
+| `intento` | Identificador o número de intento de recuperación. |
+| `intentos_registrados` | Número o descripción de intentos de recuperación registrados. |
+| `interpretacion` | Alcance interpretativo del estado de recuperación. |
+| `jaccard_titulo` | Medida registrada de similitud entre títulos para contrastar identidad. |
+| `lengua_datos` | Lengua identificada de los datos procesados; espanol permite seleccionar el subconjunto español. |
+| `licencia` | Condiciones de licencia documentadas para el recurso, sin otorgar derechos nuevos. |
+| `licencia_normalizada` | Expresión normalizada de la licencia identificada. |
+| `lote` | Identificador de lote de procesamiento o recuperación. |
+| `medida` | Nombre de la cifra en la conciliación histórica. |
+| `metricas` | Lista JSON de indicadores con nombre, cita, verificada y canonico. Es la fuente del recuento de métricas. |
+| `metricas_canonicas` | Nombres canónicos con evidencia comprobada, separados por punto y coma. |
+| `modelo` | Identificador declarado del modelo/procedimiento; no es una verificación independiente de su identidad. |
+| `modo_consulta_fuentes` | Modalidad declarada de acceso a fuentes para contrastar atributos. |
+| `modo_evidencia` | Forma en que se obtuvo la evidencia: documento, fragmento indexado u otra modalidad. |
+| `motivo` | Justificación documentada del cambio o estado. |
+| `motivo_detalle` | Explicación detallada del motivo de selección. |
+| `motivo_no_cuenta` | Razón por la que la fila no entra en el recuento RQ3. |
+| `motivo_pendiente` | Razón de información insuficiente; no se cuenta como exclusión por contenido. |
+| `motivo_recribado` | Razón registrada para reconsiderar la decisión. |
+| `n_conjuntos_datos_no_verificados` | Número de elementos de conjuntos_datos sin comprobación positiva. |
+| `n_conjuntos_datos_verificados` | Número de elementos de conjuntos_datos con verificada=true. |
+| `n_metricas_no_verificadas` | Número de elementos de metricas sin comprobación positiva. Recalculado en la extracción canónica. |
+| `n_metricas_no_verificados` | Alias masculino de v6, solo histórico; eliminado de la extracción canónica. |
+| `n_metricas_verificadas` | Número de elementos de metricas con verificada=true. Canónico solo en estudios_incluidos.csv; puede estar desactualizado en instantáneas. |
+| `n_metricas_verificados` | Alias masculino de v6, solo histórico; eliminado de la extracción canónica. |
+| `nivel_unidad` | Nivel de concreción: recurso concreto, familia u otra categoría registrada. |
+| `nombre_en_estudio` | Nombre tal como fue extraído del estudio. |
+| `nombres` | Variantes de nombres asociadas a la unidad. |
+| `nota` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `nota_decision` | Explicación asociada a la decisión recibida. |
+| `nota_recuento` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `nota_tipo_evidencia` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `nota_verificacion` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `nota_versiones` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `nuevo` | Valor después de la corrección. |
+| `oa_id` | Identificador de OpenAlex registrado; puede estar ausente en registros complementarios. |
+| `oa_status` | Estado de acceso abierto registrado por la fuente consultada. |
+| `observaciones` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `observaciones_verificacion` | Nota explicativa heredada sobre el atributo o la verificación indicada por el nombre del campo. |
+| `otras_transferencias` | Otras alternativas documentadas. |
+| `papel` | Papel del archivo en el paquete original. |
+| `pasada_elegida` | Pasada automática utilizada para la decisión conservada. |
+| `pdf_url` | Dirección de la copia identificada; no garantiza disponibilidad futura. |
+| `primera_aparicion` | Indicador recibido de primera aparición del par para evitar duplicación. |
+| `procesa_texto_con_pln_o_aa` | Detección de procesamiento de requisitos mediante PLN o aprendizaje automático. |
+| `recribado` | Indicador heredado de reconsideración de elegibilidad. |
+| `recurso_transferencia` | Recurso identificado como adaptación, versión o alternativa. |
+| `recursos` | Lista JSON de recursos con nombre, familia, rol y cita; la mención sola no acredita uso. |
+| `recursos_verif` | Lista JSON de comprobaciones asociadas a los recursos; no representa validación humana. |
+| `referencia_previa` | Referencia de trabajo conservada de una revisión anterior. |
+| `reintento_citas` | Indicador o detalle de reintento de localización de citas. |
+| `resultado_recuperacion` | Resultado final registrado de recuperación. |
+| `resultados` | Resultados de los intentos de recuperación conservados. |
+| `rid` | Identificador estable del registro; clave de relación entre selección, extracción, evidencias y pares. |
+| `rol` | Relación del recurso con el estudio; solo_menciona se excluye del uso. |
+| `sede` | Revista, conferencia u otra sede registrada; no acredita por sí sola revisión por pares. |
+| `sha256` | Huella SHA-256 del archivo en el paquete al que pertenece el manifiesto. |
+| `sha256_texto` | SHA-256 del texto UTF-8 exacto usado por registro, sin normalización adicional. |
+| `situacion_actual` | Explicación del estado de la incidencia. |
+| `soporte_espanol` | Descripción de evidencia lingüística recibida para la unidad. |
+| `soporte_espanol_criterio_conservador` | Clasificación auxiliar con criterio conservador; no sustituye estado_rq3 en la figura v6. |
+| `source` | Fuente/vía del intento de recuperación. |
+| `subtipo_evidencia_directo` | Subtipo usado para desglosar la fuerza de la evidencia directa. |
+| `subtipo_no_estudio` | Subtipo identificado cuando el documento no corresponde a un estudio primario elegible. |
+| `tarea_principal` | Categoría principal asignada al propósito del estudio; una por incluido. |
+| `tareas_secundarias` | Lista JSON de tareas adicionales; no sustituye la categoría principal. |
+| `texto_usado_en_recribado` | Indicación de uso del texto recuperado en la reconsideración. |
+| `texto_valido` | Indicador recibido de validez del texto recuperado para el procedimiento. |
+| `tipo` | Tipo de unidad en inventario o clase de incidencia, según el archivo. |
+| `tipo_cambio` | Clase de cambio respecto de la versión auditada. |
+| `tipo_contribucion` | Tipo de aportación declarado en la extracción. |
+| `tipo_documento` | Clasificación documental extraída. |
+| `tipo_evaluacion` | Categoría principal del diseño de evaluación declarado. |
+| `tipo_evidencia_directo` | Clase de evidencia dentro de los casos de soporte directo. |
+| `tipo_evidencia_espanol` | Tipo de evidencia documental identificada sobre español. |
+| `tipo_unidad` | Tipo de unidad asociada al par estudio–recurso. |
+| `tipos_adicionales` | Tipos secundarios de evaluación conservados en la extracción. |
+| `title_devuelto` | Título retornado por el servicio de recuperación. |
+| `titulo` | Título de la publicación asociado al registro. |
+| `transferencia` | Descripción de una posible transferencia o adaptación al español. |
+| `trata_requisitos_software` | Detección de que el objeto son requisitos de software. |
+| `tried` | Vías o intentos realizados, en el formato de origen. |
+| `unidad` | Nombre normalizado de la unidad de recurso o categoría. |
+| `unidades_rq3` | Unidades RQ3 asociadas al estudio en la extracción. |
+| `usado_con_datos_en_espanol` | Indicador de uso documentado con datos españoles, distinto de soporte general del proveedor. |
+| `v13_fallidas` | Comprobaciones fallidas de una pasada histórica v1.3. |
+| `v13_tarea_ok` | Comprobación de la tarea en la pasada histórica v1.3. |
+| `v_cita_disponibilidad` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_espanol` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_evaluacion` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_lengua_datos` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_linea_base` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_pln` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_requisitos` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_tarea` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `v_cita_tipo` | Indicador de comprobación/localización textual del pasaje asociado; no significa validación humana de la interpretación. |
+| `valor` | Valor registrado en la conciliación histórica, anterior a los ajustes v6. |
+| `valor_actual` | Valor en la entrega a la que pertenece la tabla de cambios. |
+| `valor_auditado` | Valor de la versión anterior auditada. |
+| `verificacion_citas` | Detalle o estado de comprobación de citas; conservar el alcance automático declarado. |
+| `version` | Versión identificada del recurso, cuando consta. |
+| `version_consultada` | Versión consultada en la documentación de la unidad. |
+| `version_id` | Identificador de versión del sistema de origen. |
+| `version_verificada` | Versión para la que se comprobó evidencia. |
+| `versiones_comparten_soporte` | Indicación recibida sobre soporte compartido entre variantes. |
+| `versiones_mismo_soporte` | Comprobación adicional recibida sobre homogeneidad de soporte entre versiones. |
+| `vias_probadas` | Vías de acceso o fuentes consultadas para recuperar el texto. |

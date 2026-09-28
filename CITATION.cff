@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite este suplemento y el artículo asociado cuando utilice sus datos. Metadatos de la versión local; DOI y dirección pública pendientes de publicación."
+type: dataset
+title: "SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE"
+authors:
+  - family-names: "Kawaida Villegas"
+    given-names: "Kenji"
+version: "1.0.0"
+abstract: "Selección, extracción, inventario de recursos, auditoría y programas de reproducción del manuscrito v6, con 539 estudios incluidos, 533 en el análisis principal y atención a la lengua española. La reproducción cubre agregaciones y figuras; no sustituye la validación humana de las decisiones."
+keywords:
+  - "ingeniería de requisitos"
+  - "procesamiento del lenguaje natural"
+  - "mapeo sistemático"
+  - "español"
+  - "NLP4RE"
+  - "research data"

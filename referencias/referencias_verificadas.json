@@ -1,0 +1,242 @@
+{
+  "Bak98": {
+    "tag": "Bak98",
+    "citation": "Baker et al., 1998",
+    "bibliography": "Baker, C. F., Fillmore, C. J., & Lowe, J. B. (1998). *The Berkeley FrameNet project*. En *Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics* (pp. 86-90). Association for Computational Linguistics. https://doi.org/10.3115/980845.980860",
+    "title": "The Berkeley FrameNet project",
+    "year": "1998",
+    "url": "https://doi.org/10.3115/980845.980860",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Bak98</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A001}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Baker</b:Last>\n            <b:First>C. F.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Fillmore</b:Last>\n            <b:First>C. J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Lowe</b:Last>\n            <b:First>J. B.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>The Berkeley FrameNet project</b:Title>\n    <b:Year>1998</b:Year>\n    <b:ConferenceName>Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics</b:ConferenceName>\n    <b:Publisher>Association for Computational Linguistics</b:Publisher>\n    <b:Pages>86-90</b:Pages>\n    <b:URL>https://doi.org/10.3115/980845.980860</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Boj17": {
+    "tag": "Boj17",
+    "citation": "Bojanowski et al., 2017",
+    "bibliography": "Bojanowski, P., Grave, E., Joulin, A., & Mikolov, T. (2017). *Enriching word vectors with subword information*. *Transactions of the Association for Computational Linguistics, 5*, 135-146. https://doi.org/10.1162/tacl_a_00051",
+    "title": "Enriching word vectors with subword information",
+    "year": "2017",
+    "url": "https://doi.org/10.1162/tacl_a_00051",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Boj17</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A002}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Bojanowski</b:Last>\n            <b:First>P.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Grave</b:Last>\n            <b:First>E.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Joulin</b:Last>\n            <b:First>A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Mikolov</b:Last>\n            <b:First>T.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Enriching word vectors with subword information</b:Title>\n    <b:Year>2017</b:Year>\n    <b:JournalName>Transactions of the Association for Computational Linguistics</b:JournalName>\n    <b:Volume>5</b:Volume>\n    <b:Pages>135-146</b:Pages>\n    <b:URL>https://doi.org/10.1162/tacl_a_00051</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Can23": {
+    "tag": "Can23",
+    "citation": "Cañete et al., 2023",
+    "bibliography": "Cañete, J., Chaperon, G., Fuentes, R., Ho, J.-H., Kang, H., & Pérez, J. (2023). *Spanish pre-trained BERT model and evaluation data*. [Informe]. arXiv. https://doi.org/10.48550/arXiv.2308.02976",
+    "title": "Spanish pre-trained BERT model and evaluation data",
+    "year": "2023",
+    "url": "https://doi.org/10.48550/arXiv.2308.02976",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Can23</b:Tag>\n    <b:SourceType>Report</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A003}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Cañete</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Chaperon</b:Last>\n            <b:First>G.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Fuentes</b:Last>\n            <b:First>R.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Ho</b:Last>\n            <b:First>J.-H.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Kang</b:Last>\n            <b:First>H.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Pérez</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Spanish pre-trained BERT model and evaluation data</b:Title>\n    <b:Year>2023</b:Year>\n    <b:URL>https://doi.org/10.48550/arXiv.2308.02976</b:URL>\n  <b:Publisher>arXiv</b:Publisher><b:Comments>Versión arXiv de 2023; trabajo presentado originalmente en ICLR 2020.</b:Comments></b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Car16": {
+    "tag": "Car16",
+    "citation": "Cardellino, 2016",
+    "bibliography": "Cardellino, C. (2016). *Spanish Billion Words Corpus and Embeddings*. [Corpus y representaciones vectoriales]. https://crscardellino.net/SBWCE/",
+    "title": "Spanish Billion Words Corpus and Embeddings",
+    "year": "2016",
+    "url": "https://crscardellino.net/SBWCE/",
+    "source_xml": "<ns0:Source xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"><ns0:Tag>Car16</ns0:Tag><ns0:SourceType>ElectronicSource</ns0:SourceType><ns0:Guid>{2CC2D4D2-C908-4F9F-A50A-31F1464F1636}</ns0:Guid><ns0:Author><ns0:Author><ns0:NameList><ns0:Person><ns0:Last>Cardellino</ns0:Last><ns0:First>C.</ns0:First></ns0:Person></ns0:NameList></ns0:Author></ns0:Author><ns0:Title>Spanish Billion Words Corpus and Embeddings</ns0:Title><ns0:Year>2016</ns0:Year><ns0:URL>https://crscardellino.net/SBWCE/</ns0:URL><ns0:Comments>Corpus y representaciones vectoriales</ns0:Comments></ns0:Source>",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Coh60": {
+    "tag": "Coh60",
+    "citation": "Cohen, 1960",
+    "bibliography": "Cohen, J. (1960). *A coefficient of agreement for nominal scales*. *Educational and Psychological Measurement, 20*(1), 37-46. https://doi.org/10.1177/001316446002000104",
+    "title": "A coefficient of agreement for nominal scales",
+    "year": "1960",
+    "url": "https://doi.org/10.1177/001316446002000104",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Coh60</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A004}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Cohen</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>A coefficient of agreement for nominal scales</b:Title>\n    <b:Year>1960</b:Year>\n    <b:JournalName>Educational and Psychological Measurement</b:JournalName>\n    <b:Volume>20</b:Volume>\n    <b:Issue>1</b:Issue>\n    <b:Pages>37-46</b:Pages>\n    <b:URL>https://doi.org/10.1177/001316446002000104</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Dev19": {
+    "tag": "Dev19",
+    "citation": "Devlin et al., 2019",
+    "bibliography": "Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). *BERT: Pre-training of deep bidirectional transformers for language understanding*. En *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)* (pp. 4171-4186). Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1423",
+    "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+    "year": "2019",
+    "url": "https://doi.org/10.18653/v1/N19-1423",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Dev19</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A005}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Devlin</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Chang</b:Last>\n            <b:First>M.-W.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Lee</b:Last>\n            <b:First>K.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Toutanova</b:Last>\n            <b:First>K.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>BERT: Pre-training of deep bidirectional transformers for language understanding</b:Title>\n    <b:Year>2019</b:Year>\n    <b:ConferenceName>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)</b:ConferenceName>\n    <b:Publisher>Association for Computational Linguistics</b:Publisher>\n    <b:Pages>4171-4186</b:Pages>\n    <b:URL>https://doi.org/10.18653/v1/N19-1423</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Fei90": {
+    "tag": "Fei90",
+    "citation": "Feinstein y Cicchetti, 1990",
+    "bibliography": "Feinstein, A. R., & Cicchetti, D. V. (1990). *High agreement but low kappa: I. The problems of two paradoxes*. *Journal of Clinical Epidemiology, 43*(6), 543-549. https://doi.org/10.1016/0895-4356(90)90158-L",
+    "title": "High agreement but low kappa: I. The problems of two paradoxes",
+    "year": "1990",
+    "url": "https://doi.org/10.1016/0895-4356(90)90158-L",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Fei90</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A006}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Feinstein</b:Last>\n            <b:First>A. R.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Cicchetti</b:Last>\n            <b:First>D. V.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>High agreement but low kappa: I. The problems of two paradoxes</b:Title>\n    <b:Year>1990</b:Year>\n    <b:JournalName>Journal of Clinical Epidemiology</b:JournalName>\n    <b:Volume>43</b:Volume>\n    <b:Issue>6</b:Issue>\n    <b:Pages>543-549</b:Pages>\n    <b:URL>https://doi.org/10.1016/0895-4356(90)90158-L</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Gut22": {
+    "tag": "Gut22",
+    "citation": "Gutiérrez-Fandiño et al., 2022",
+    "bibliography": "Gutiérrez-Fandiño, A., Armengol-Estapé, J., Pàmies, M., Llop-Palao, J., Silveira-Ocampo, J., Carrino, C. P., Armentano-Oller, C., Rodríguez-Penagos, C., Gonzalez-Agirre, A., & Villegas, M. (2022). *MarIA: Spanish language models*. *Procesamiento del Lenguaje Natural, 68*, 39-60. https://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405",
+    "title": "MarIA: Spanish language models",
+    "year": "2022",
+    "url": "https://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Gut22</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A007}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Gutiérrez-Fandiño</b:Last>\n            <b:First>A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Armengol-Estapé</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Pàmies</b:Last>\n            <b:First>M.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Llop-Palao</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Silveira-Ocampo</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Carrino</b:Last>\n            <b:First>C. P.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Armentano-Oller</b:Last>\n            <b:First>C.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Rodríguez-Penagos</b:Last>\n            <b:First>C.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Gonzalez-Agirre</b:Last>\n            <b:First>A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Villegas</b:Last>\n            <b:First>M.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>MarIA: Spanish language models</b:Title>\n    <b:Year>2022</b:Year>\n    <b:JournalName>Procesamiento del Lenguaje Natural</b:JournalName>\n    <b:Volume>68</b:Volume>\n    <b:Pages>39-60</b:Pages>\n    <b:URL>https://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Guz15": {
+    "tag": "Guz15",
+    "citation": "Guzmán Luna et al., 2015",
+    "bibliography": "Guzmán Luna, J. A., Gómez Arias, S. A., & Vélez Carvajal, C. A. (2015). Un modelo de procesamiento de lenguaje natural para la detección de errores en requisitos de software. *Revista Virtual Universidad Católica del Norte*(46), 169-186. https://revistavirtual.ucn.edu.co/index.php/RevistaUCN/article/view/707",
+    "title": "Un modelo de procesamiento de lenguaje natural para la detección de errores en requisitos de software",
+    "year": "2015",
+    "url": "https://revistavirtual.ucn.edu.co/index.php/RevistaUCN/article/view/707",
+    "source_xml": "<ns0:Source xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"><ns0:Tag>Guz15</ns0:Tag><ns0:SourceType>JournalArticle</ns0:SourceType><ns0:Guid>{F494F2B4-F0C5-4568-8EB5-7230745CD423}</ns0:Guid><ns0:Author><ns0:Author><ns0:NameList><ns0:Person><ns0:Last>Guzmán Luna</ns0:Last><ns0:First>J. A.</ns0:First></ns0:Person><ns0:Person><ns0:Last>Gómez Arias</ns0:Last><ns0:First>S. A.</ns0:First></ns0:Person><ns0:Person><ns0:Last>Vélez Carvajal</ns0:Last><ns0:First>C. A.</ns0:First></ns0:Person></ns0:NameList></ns0:Author></ns0:Author><ns0:Title>Un modelo de procesamiento de lenguaje natural para la detección de errores en requisitos de software</ns0:Title><ns0:Year>2015</ns0:Year><ns0:JournalName>Revista Virtual Universidad Católica del Norte</ns0:JournalName><ns0:Issue>46</ns0:Issue><ns0:Pages>169-186</ns0:Pages><ns0:URL>https://revistavirtual.ucn.edu.co/index.php/RevistaUCN/article/view/707</ns0:URL></ns0:Source>",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim23a": {
+    "tag": "Lim23a",
+    "citation": "Limaylla-Lunarejo et al., 2023a",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2023a). *Evaluating non-functional requirements classification for Spanish text: Traditional vs. deep learning approaches*. En *LatinX in AI Workshop*. https://doi.org/10.52591/lxai202312103",
+    "title": "Evaluating non-functional requirements classification for Spanish text: Traditional vs. deep learning approaches",
+    "year": "2023",
+    "url": "https://doi.org/10.52591/lxai202312103",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim23a</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A010}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Evaluating non-functional requirements classification for Spanish text: Traditional vs. deep learning approaches</b:Title>\n    <b:Year>2023</b:Year>\n    <b:ConferenceName>LatinX in AI Workshop</b:ConferenceName>\n    <b:URL>https://doi.org/10.52591/lxai202312103</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim23b": {
+    "tag": "Lim23b",
+    "citation": "Limaylla-Lunarejo et al., 2023b",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2023b). *Requirements classification using FastText and BETO in Spanish documents*. En *Requirements Engineering: Foundation for Software Quality (REFSQ 2023), Lecture Notes in Computer Science, vol. 13975* (pp. 159-176). Springer. https://doi.org/10.1007/978-3-031-29786-1_11",
+    "title": "Requirements classification using FastText and BETO in Spanish documents",
+    "year": "2023",
+    "url": "https://doi.org/10.1007/978-3-031-29786-1_11",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim23b</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A011}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Requirements classification using FastText and BETO in Spanish documents</b:Title>\n    <b:Year>2023</b:Year>\n    <b:ConferenceName>Requirements Engineering: Foundation for Software Quality (REFSQ 2023), Lecture Notes in Computer Science, vol. 13975</b:ConferenceName>\n    <b:Publisher>Springer</b:Publisher>\n    <b:Pages>159-176</b:Pages>\n    <b:URL>https://doi.org/10.1007/978-3-031-29786-1_11</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim23c": {
+    "tag": "Lim23c",
+    "citation": "Limaylla-Lunarejo et al., 2023c",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2023c). *Towards a FAIR dataset for non-functional requirements*. En *Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing* (pp. 1414-1421). ACM. https://doi.org/10.1145/3555776.3578611",
+    "title": "Towards a FAIR dataset for non-functional requirements",
+    "year": "2023",
+    "url": "https://doi.org/10.1145/3555776.3578611",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim23c</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A012}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Towards a FAIR dataset for non-functional requirements</b:Title>\n    <b:Year>2023</b:Year>\n    <b:ConferenceName>Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing</b:ConferenceName>\n    <b:Publisher>ACM</b:Publisher>\n    <b:Pages>1414-1421</b:Pages>\n    <b:URL>https://doi.org/10.1145/3555776.3578611</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim23e": {
+    "tag": "Lim23e",
+    "citation": "Limaylla-Lunarejo et al., 2023d",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2023d). *Towards an automatic classification for Spanish software requirements*. *Kalpa Publications in Computing, 14*, 124-126. https://doi.org/10.29007/b8sk",
+    "title": "Towards an automatic classification for Spanish software requirements",
+    "year": "2023",
+    "url": "https://doi.org/10.29007/b8sk",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim23e</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A014}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Towards an automatic classification for Spanish software requirements</b:Title>\n    <b:Year>2023</b:Year>\n    <b:JournalName>Kalpa Publications in Computing</b:JournalName>\n    <b:Volume>14</b:Volume>\n    <b:Pages>124-126</b:Pages>\n    <b:URL>https://doi.org/10.29007/b8sk</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim25a": {
+    "tag": "Lim25a",
+    "citation": "Limaylla-Lunarejo et al., 2025",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2025). *SimRE: A requirements similarity tool for software product lines*. En *Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing* (pp. 1473-1480). ACM. https://doi.org/10.1145/3672608.3707758",
+    "title": "SimRE: A requirements similarity tool for software product lines",
+    "year": "2025",
+    "url": "https://doi.org/10.1145/3672608.3707758",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim25a</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A015}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>SimRE: A requirements similarity tool for software product lines</b:Title>\n    <b:Year>2025</b:Year>\n    <b:ConferenceName>Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing</b:ConferenceName>\n    <b:Publisher>ACM</b:Publisher>\n    <b:Pages>1473-1480</b:Pages>\n    <b:URL>https://doi.org/10.1145/3672608.3707758</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim26": {
+    "tag": "Lim26",
+    "citation": "Limaylla-Lunarejo, Condori-Fernandez y Luaces, 2026",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., & Luaces, M. R. (2026). *Automatic criteria for prioritizing software requirements in Spanish projects*. *Journal of Systems and Software, 238*, Artículo 112858. https://doi.org/10.1016/j.jss.2026.112858",
+    "title": "Automatic criteria for prioritizing software requirements in Spanish projects",
+    "year": "2026",
+    "url": "https://doi.org/10.1016/j.jss.2026.112858",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim26</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A017}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Luaces</b:Last>\n            <b:First>M. R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Automatic criteria for prioritizing software requirements in Spanish projects</b:Title>\n    <b:Year>2026</b:Year>\n    <b:JournalName>Journal of Systems and Software</b:JournalName>\n    <b:Volume>238</b:Volume>\n    <b:Pages>112858</b:Pages>\n    <b:URL>https://doi.org/10.1016/j.jss.2026.112858</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Lim25b": {
+    "tag": "Lim25b",
+    "citation": "Limaylla-Lunarejo, Condori-Fernandez, Rodríguez Luaces y Karras, 2026",
+    "bibliography": "Limaylla-Lunarejo, M. I., Condori-Fernandez, N., Rodríguez Luaces, M., & Karras, O. (2026). *Improving the multi-class classification of non-functional requirements in Spanish: A study of dataset balancing and performance*. *Empirical Software Engineering, 31*(1), Artículo 6. https://doi.org/10.1007/s10664-025-10736-9",
+    "title": "Improving the multi-class classification of non-functional requirements in Spanish: A study of dataset balancing and performance",
+    "year": "2026",
+    "url": "https://doi.org/10.1007/s10664-025-10736-9",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Lim25b</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A016}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Limaylla-Lunarejo</b:Last>\n            <b:First>M. I.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Condori-Fernandez</b:Last>\n            <b:First>N.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Rodríguez Luaces</b:Last>\n            <b:First>M.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Karras</b:Last>\n            <b:First>O.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Improving the multi-class classification of non-functional requirements in Spanish: A study of dataset balancing and performance</b:Title>\n    <b:Year>2026</b:Year>\n    <b:JournalName>Empirical Software Engineering</b:JournalName>\n    <b:Volume>31</b:Volume>\n    <b:Issue>1</b:Issue>\n    <b:URL>https://doi.org/10.1007/s10664-025-10736-9</b:URL>\n  <b:Pages>6</b:Pages><b:Comments>Publicado en línea el 2 de noviembre de 2025; volumen 31, artículo 6, 2026.</b:Comments></b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Mil95": {
+    "tag": "Mil95",
+    "citation": "Miller, 1995",
+    "bibliography": "Miller, G. A. (1995). *WordNet: A lexical database for English*. *Communications of the ACM, 38*(11), 39-41. https://doi.org/10.1145/219717.219748",
+    "title": "WordNet: A lexical database for English",
+    "year": "1995",
+    "url": "https://doi.org/10.1145/219717.219748",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Mil95</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A020}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Miller</b:Last>\n            <b:First>G. A.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>WordNet: A lexical database for English</b:Title>\n    <b:Year>1995</b:Year>\n    <b:JournalName>Communications of the ACM</b:JournalName>\n    <b:Volume>38</b:Volume>\n    <b:Issue>11</b:Issue>\n    <b:Pages>39-41</b:Pages>\n    <b:URL>https://doi.org/10.1145/219717.219748</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Ope23": {
+    "tag": "Ope23",
+    "citation": "OpenAI, 2023",
+    "bibliography": "OpenAI. (2023). *GPT-4 technical report*. [Informe]. arXiv. https://doi.org/10.48550/arXiv.2303.08774",
+    "title": "GPT-4 technical report",
+    "year": "2023",
+    "url": "https://doi.org/10.48550/arXiv.2303.08774",
+    "source_xml": "<ns0:Source xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"><ns0:Tag>Ope23</ns0:Tag><ns0:SourceType>Report</ns0:SourceType><ns0:Guid>{ADB5AE81-5F30-4109-B620-9E4BA488B893}</ns0:Guid><ns0:Author><ns0:Author><ns0:Corporate>OpenAI</ns0:Corporate></ns0:Author></ns0:Author><ns0:Title>GPT-4 technical report</ns0:Title><ns0:Year>2023</ns0:Year><ns0:Publisher>arXiv</ns0:Publisher><ns0:URL>https://doi.org/10.48550/arXiv.2303.08774</ns0:URL></ns0:Source>",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Per25": {
+    "tag": "Per25",
+    "citation": "Pérez et al., 2025",
+    "bibliography": "Pérez, G., Mostaccio, C. A., Maltempo, G., & Antonelli, L. (2025). *Evaluation of natural language processing models to measure similarity between scenarios written in Spanish*. *Cadernos do IME - Série Informática, 50*. https://doi.org/10.12957/cadinf.2024.87935",
+    "title": "Evaluation of natural language processing models to measure similarity between scenarios written in Spanish",
+    "year": "2025",
+    "url": "https://doi.org/10.12957/cadinf.2024.87935",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Per25</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A022}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Pérez</b:Last>\n            <b:First>G.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Mostaccio</b:Last>\n            <b:First>C. A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Maltempo</b:Last>\n            <b:First>G.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Antonelli</b:Last>\n            <b:First>L.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Evaluation of natural language processing models to measure similarity between scenarios written in Spanish</b:Title>\n    <b:Year>2025</b:Year>\n    <b:JournalName>Cadernos do IME - Série Informática</b:JournalName>\n    <b:Volume>50</b:Volume>\n    <b:URL>https://doi.org/10.12957/cadinf.2024.87935</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Pet08": {
+    "tag": "Pet08",
+    "citation": "Petersen et al., 2008",
+    "bibliography": "Petersen, K., Feldt, R., Mujtaba, S., & Mattsson, M. (2008). *Systematic mapping studies in software engineering*. En *Proceedings of the 12th International Conference on Evaluation and Assessment in Software Engineering* (pp. 68-77). BCS Learning & Development. https://doi.org/10.14236/ewic/EASE2008.8",
+    "title": "Systematic mapping studies in software engineering",
+    "year": "2008",
+    "url": "https://doi.org/10.14236/ewic/EASE2008.8",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Pet08</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A023}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Petersen</b:Last>\n            <b:First>K.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Feldt</b:Last>\n            <b:First>R.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Mujtaba</b:Last>\n            <b:First>S.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Mattsson</b:Last>\n            <b:First>M.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Systematic mapping studies in software engineering</b:Title>\n    <b:Year>2008</b:Year>\n    <b:ConferenceName>Proceedings of the 12th International Conference on Evaluation and Assessment in Software Engineering</b:ConferenceName>\n    <b:Publisher>BCS Learning &amp; Development</b:Publisher>\n    <b:Pages>68-77</b:Pages>\n    <b:URL>https://doi.org/10.14236/ewic/EASE2008.8</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Pet15": {
+    "tag": "Pet15",
+    "citation": "Petersen et al., 2015",
+    "bibliography": "Petersen, K., Vakkalanka, S., & Kuzniarz, L. (2015). *Guidelines for conducting systematic mapping studies in software engineering: An update*. *Information and Software Technology, 64*, 1-18. https://doi.org/10.1016/j.infsof.2015.03.007",
+    "title": "Guidelines for conducting systematic mapping studies in software engineering: An update",
+    "year": "2015",
+    "url": "https://doi.org/10.1016/j.infsof.2015.03.007",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Pet15</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A024}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Petersen</b:Last>\n            <b:First>K.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Vakkalanka</b:Last>\n            <b:First>S.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Kuzniarz</b:Last>\n            <b:First>L.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Guidelines for conducting systematic mapping studies in software engineering: An update</b:Title>\n    <b:Year>2015</b:Year>\n    <b:JournalName>Information and Software Technology</b:JournalName>\n    <b:Volume>64</b:Volume>\n    <b:Pages>1-18</b:Pages>\n    <b:URL>https://doi.org/10.1016/j.infsof.2015.03.007</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Pri22": {
+    "tag": "Pri22",
+    "citation": "Priem et al., 2022",
+    "bibliography": "Priem, J., Piwowar, H., & Orr, R. (2022). *OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts*. En *26th International Conference on Science, Technology and Innovation Indicators (STI 2022)*. https://doi.org/10.5281/zenodo.6936227",
+    "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+    "year": "2022",
+    "url": "https://doi.org/10.5281/zenodo.6936227",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Pri22</b:Tag>\n    <b:SourceType>ConferenceProceedings</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A025}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Priem</b:Last>\n            <b:First>J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Piwowar</b:Last>\n            <b:First>H.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Orr</b:Last>\n            <b:First>R.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts</b:Title>\n    <b:Year>2022</b:Year>\n    <b:ConferenceName>26th International Conference on Science, Technology and Innovation Indicators (STI 2022)</b:ConferenceName>\n    <b:City>Granada, España</b:City>\n    <b:URL>https://doi.org/10.5281/zenodo.6936227</b:URL>\n  </b:Source>\n  ",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Rei20": {
+    "tag": "Rei20",
+    "citation": "Reimers y Gurevych, 2020",
+    "bibliography": "Reimers, N., & Gurevych, I. (2020). *Making monolingual sentence embeddings multilingual using knowledge distillation*. En *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)* (pp. 4512-4525). Association for Computational Linguistics. https://doi.org/10.18653/v1/2020.emnlp-main.365",
+    "title": "Making monolingual sentence embeddings multilingual using knowledge distillation",
+    "year": "2020",
+    "url": "https://doi.org/10.18653/v1/2020.emnlp-main.365",
+    "source_xml": "<ns0:Source xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"><ns0:Tag>Rei20</ns0:Tag><ns0:SourceType>ConferenceProceedings</ns0:SourceType><ns0:Guid>{73DD23CF-D146-4F2B-8633-8DC57C9F898F}</ns0:Guid><ns0:Author><ns0:Author><ns0:NameList><ns0:Person><ns0:Last>Reimers</ns0:Last><ns0:First>N.</ns0:First></ns0:Person><ns0:Person><ns0:Last>Gurevych</ns0:Last><ns0:First>I.</ns0:First></ns0:Person></ns0:NameList></ns0:Author></ns0:Author><ns0:Title>Making monolingual sentence embeddings multilingual using knowledge distillation</ns0:Title><ns0:Year>2020</ns0:Year><ns0:ConferenceName>Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</ns0:ConferenceName><ns0:Publisher>Association for Computational Linguistics</ns0:Publisher><ns0:Pages>4512-4525</ns0:Pages><ns0:URL>https://doi.org/10.18653/v1/2020.emnlp-main.365</ns0:URL></ns0:Source>",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  },
+  "Zha21": {
+    "tag": "Zha21",
+    "citation": "Zhao et al., 2021",
+    "bibliography": "Zhao, L., Alhoshan, W., Ferrari, A., Letsholo, K. J., Ajagbe, M. A., Chioasca, E.-V., & Batista-Navarro, R. T. (2021). *Natural language processing for requirements engineering: A systematic mapping study*. *ACM Computing Surveys, 54*(3), Artículo 55. https://doi.org/10.1145/3444689",
+    "title": "Natural language processing for requirements engineering: A systematic mapping study",
+    "year": "2021",
+    "url": "https://doi.org/10.1145/3444689",
+    "source_xml": "<b:Source xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\">\n    <b:Tag>Zha21</b:Tag>\n    <b:SourceType>JournalArticle</b:SourceType>\n    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A026}</b:Guid>\n    <b:Author>\n      <b:Author>\n        <b:NameList>\n          <b:Person>\n            <b:Last>Zhao</b:Last>\n            <b:First>L.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Alhoshan</b:Last>\n            <b:First>W.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Ferrari</b:Last>\n            <b:First>A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Letsholo</b:Last>\n            <b:First>K. J.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Ajagbe</b:Last>\n            <b:First>M. A.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Chioasca</b:Last>\n            <b:First>E.-V.</b:First>\n          </b:Person>\n          <b:Person>\n            <b:Last>Batista-Navarro</b:Last>\n            <b:First>R. T.</b:First>\n          </b:Person>\n        </b:NameList>\n      </b:Author>\n    </b:Author>\n    <b:Title>Natural language processing for requirements engineering: A systematic mapping study</b:Title>\n    <b:Year>2021</b:Year>\n    <b:JournalName>ACM Computing Surveys</b:JournalName>\n    <b:Volume>54</b:Volume>\n    <b:Issue>3</b:Issue>\n    <b:Pages>Artículo 55</b:Pages>\n    <b:URL>https://doi.org/10.1145/3444689</b:URL>\n  </b:Source>\n",
+    "verification": "Metadatos del original contrastados y corregidos con la revisión v5 y fuentes primarias de la revisión v6."
+  }
+}

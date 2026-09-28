@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="\APA.XSL" StyleName="APA" Version="6"><b:Source>
+    <b:Tag>Bak98</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A001}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Baker</b:Last>
+            <b:First>C. F.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Fillmore</b:Last>
+            <b:First>C. J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Lowe</b:Last>
+            <b:First>J. B.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>The Berkeley FrameNet project</b:Title>
+    <b:Year>1998</b:Year>
+    <b:ConferenceName>Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics</b:ConferenceName>
+    <b:Publisher>Association for Computational Linguistics</b:Publisher>
+    <b:Pages>86-90</b:Pages>
+    <b:URL>https://doi.org/10.3115/980845.980860</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Boj17</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A002}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Bojanowski</b:Last>
+            <b:First>P.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Grave</b:Last>
+            <b:First>E.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Joulin</b:Last>
+            <b:First>A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Mikolov</b:Last>
+            <b:First>T.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Enriching word vectors with subword information</b:Title>
+    <b:Year>2017</b:Year>
+    <b:JournalName>Transactions of the Association for Computational Linguistics</b:JournalName>
+    <b:Volume>5</b:Volume>
+    <b:Pages>135-146</b:Pages>
+    <b:URL>https://doi.org/10.1162/tacl_a_00051</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Can23</b:Tag>
+    <b:SourceType>Report</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A003}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Cañete</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Chaperon</b:Last>
+            <b:First>G.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Fuentes</b:Last>
+            <b:First>R.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Ho</b:Last>
+            <b:First>J.-H.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Kang</b:Last>
+            <b:First>H.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Pérez</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Spanish pre-trained BERT model and evaluation data</b:Title>
+    <b:Year>2023</b:Year>
+    <b:URL>https://doi.org/10.48550/arXiv.2308.02976</b:URL>
+  <b:Publisher>arXiv</b:Publisher><b:Comments>Versión arXiv de 2023; trabajo presentado originalmente en ICLR 2020.</b:Comments></b:Source>
+  <b:Source><b:Tag>Car16</b:Tag><b:SourceType>ElectronicSource</b:SourceType><b:Guid>{2CC2D4D2-C908-4F9F-A50A-31F1464F1636}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Cardellino</b:Last><b:First>C.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Spanish Billion Words Corpus and Embeddings</b:Title><b:Year>2016</b:Year><b:URL>https://crscardellino.net/SBWCE/</b:URL><b:Comments>Corpus y representaciones vectoriales</b:Comments></b:Source><b:Source>
+    <b:Tag>Coh60</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A004}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Cohen</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>A coefficient of agreement for nominal scales</b:Title>
+    <b:Year>1960</b:Year>
+    <b:JournalName>Educational and Psychological Measurement</b:JournalName>
+    <b:Volume>20</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Pages>37-46</b:Pages>
+    <b:URL>https://doi.org/10.1177/001316446002000104</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Dev19</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A005}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Devlin</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Chang</b:Last>
+            <b:First>M.-W.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Lee</b:Last>
+            <b:First>K.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Toutanova</b:Last>
+            <b:First>K.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>BERT: Pre-training of deep bidirectional transformers for language understanding</b:Title>
+    <b:Year>2019</b:Year>
+    <b:ConferenceName>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)</b:ConferenceName>
+    <b:Publisher>Association for Computational Linguistics</b:Publisher>
+    <b:Pages>4171-4186</b:Pages>
+    <b:URL>https://doi.org/10.18653/v1/N19-1423</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Fei90</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A006}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Feinstein</b:Last>
+            <b:First>A. R.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Cicchetti</b:Last>
+            <b:First>D. V.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>High agreement but low kappa: I. The problems of two paradoxes</b:Title>
+    <b:Year>1990</b:Year>
+    <b:JournalName>Journal of Clinical Epidemiology</b:JournalName>
+    <b:Volume>43</b:Volume>
+    <b:Issue>6</b:Issue>
+    <b:Pages>543-549</b:Pages>
+    <b:URL>https://doi.org/10.1016/0895-4356(90)90158-L</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Gut22</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A007}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Gutiérrez-Fandiño</b:Last>
+            <b:First>A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Armengol-Estapé</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Pàmies</b:Last>
+            <b:First>M.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Llop-Palao</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Silveira-Ocampo</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Carrino</b:Last>
+            <b:First>C. P.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Armentano-Oller</b:Last>
+            <b:First>C.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Rodríguez-Penagos</b:Last>
+            <b:First>C.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Gonzalez-Agirre</b:Last>
+            <b:First>A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Villegas</b:Last>
+            <b:First>M.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>MarIA: Spanish language models</b:Title>
+    <b:Year>2022</b:Year>
+    <b:JournalName>Procesamiento del Lenguaje Natural</b:JournalName>
+    <b:Volume>68</b:Volume>
+    <b:Pages>39-60</b:Pages>
+    <b:URL>https://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405</b:URL>
+  </b:Source>
+  <b:Source><b:Tag>Guz15</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{F494F2B4-F0C5-4568-8EB5-7230745CD423}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Guzmán Luna</b:Last><b:First>J. A.</b:First></b:Person><b:Person><b:Last>Gómez Arias</b:Last><b:First>S. A.</b:First></b:Person><b:Person><b:Last>Vélez Carvajal</b:Last><b:First>C. A.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Un modelo de procesamiento de lenguaje natural para la detección de errores en requisitos de software</b:Title><b:Year>2015</b:Year><b:JournalName>Revista Virtual Universidad Católica del Norte</b:JournalName><b:Issue>46</b:Issue><b:Pages>169-186</b:Pages><b:URL>https://revistavirtual.ucn.edu.co/index.php/RevistaUCN/article/view/707</b:URL></b:Source><b:Source>
+    <b:Tag>Lim23a</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A010}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Evaluating non-functional requirements classification for Spanish text: Traditional vs. deep learning approaches</b:Title>
+    <b:Year>2023</b:Year>
+    <b:ConferenceName>LatinX in AI Workshop</b:ConferenceName>
+    <b:URL>https://doi.org/10.52591/lxai202312103</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim23b</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A011}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Requirements classification using FastText and BETO in Spanish documents</b:Title>
+    <b:Year>2023</b:Year>
+    <b:ConferenceName>Requirements Engineering: Foundation for Software Quality (REFSQ 2023), Lecture Notes in Computer Science, vol. 13975</b:ConferenceName>
+    <b:Publisher>Springer</b:Publisher>
+    <b:Pages>159-176</b:Pages>
+    <b:URL>https://doi.org/10.1007/978-3-031-29786-1_11</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim23c</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A012}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Towards a FAIR dataset for non-functional requirements</b:Title>
+    <b:Year>2023</b:Year>
+    <b:ConferenceName>Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing</b:ConferenceName>
+    <b:Publisher>ACM</b:Publisher>
+    <b:Pages>1414-1421</b:Pages>
+    <b:URL>https://doi.org/10.1145/3555776.3578611</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim23e</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A014}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Towards an automatic classification for Spanish software requirements</b:Title>
+    <b:Year>2023</b:Year>
+    <b:JournalName>Kalpa Publications in Computing</b:JournalName>
+    <b:Volume>14</b:Volume>
+    <b:Pages>124-126</b:Pages>
+    <b:URL>https://doi.org/10.29007/b8sk</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim25a</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A015}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>SimRE: A requirements similarity tool for software product lines</b:Title>
+    <b:Year>2025</b:Year>
+    <b:ConferenceName>Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing</b:ConferenceName>
+    <b:Publisher>ACM</b:Publisher>
+    <b:Pages>1473-1480</b:Pages>
+    <b:URL>https://doi.org/10.1145/3672608.3707758</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim26</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A017}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Luaces</b:Last>
+            <b:First>M. R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Automatic criteria for prioritizing software requirements in Spanish projects</b:Title>
+    <b:Year>2026</b:Year>
+    <b:JournalName>Journal of Systems and Software</b:JournalName>
+    <b:Volume>238</b:Volume>
+    <b:Pages>112858</b:Pages>
+    <b:URL>https://doi.org/10.1016/j.jss.2026.112858</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Lim25b</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A016}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Limaylla-Lunarejo</b:Last>
+            <b:First>M. I.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Condori-Fernandez</b:Last>
+            <b:First>N.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Rodríguez Luaces</b:Last>
+            <b:First>M.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Karras</b:Last>
+            <b:First>O.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Improving the multi-class classification of non-functional requirements in Spanish: A study of dataset balancing and performance</b:Title>
+    <b:Year>2026</b:Year>
+    <b:JournalName>Empirical Software Engineering</b:JournalName>
+    <b:Volume>31</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:URL>https://doi.org/10.1007/s10664-025-10736-9</b:URL>
+  <b:Pages>6</b:Pages><b:Comments>Publicado en línea el 2 de noviembre de 2025; volumen 31, artículo 6, 2026.</b:Comments></b:Source>
+  <b:Source>
+    <b:Tag>Mil95</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A020}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Miller</b:Last>
+            <b:First>G. A.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>WordNet: A lexical database for English</b:Title>
+    <b:Year>1995</b:Year>
+    <b:JournalName>Communications of the ACM</b:JournalName>
+    <b:Volume>38</b:Volume>
+    <b:Issue>11</b:Issue>
+    <b:Pages>39-41</b:Pages>
+    <b:URL>https://doi.org/10.1145/219717.219748</b:URL>
+  </b:Source>
+  <b:Source><b:Tag>Ope23</b:Tag><b:SourceType>Report</b:SourceType><b:Guid>{ADB5AE81-5F30-4109-B620-9E4BA488B893}</b:Guid><b:Author><b:Author><b:Corporate>OpenAI</b:Corporate></b:Author></b:Author><b:Title>GPT-4 technical report</b:Title><b:Year>2023</b:Year><b:Publisher>arXiv</b:Publisher><b:URL>https://doi.org/10.48550/arXiv.2303.08774</b:URL></b:Source><b:Source>
+    <b:Tag>Per25</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A022}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Pérez</b:Last>
+            <b:First>G.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Mostaccio</b:Last>
+            <b:First>C. A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Maltempo</b:Last>
+            <b:First>G.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Antonelli</b:Last>
+            <b:First>L.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Evaluation of natural language processing models to measure similarity between scenarios written in Spanish</b:Title>
+    <b:Year>2025</b:Year>
+    <b:JournalName>Cadernos do IME - Série Informática</b:JournalName>
+    <b:Volume>50</b:Volume>
+    <b:URL>https://doi.org/10.12957/cadinf.2024.87935</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Pet08</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A023}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Petersen</b:Last>
+            <b:First>K.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Feldt</b:Last>
+            <b:First>R.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Mujtaba</b:Last>
+            <b:First>S.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Mattsson</b:Last>
+            <b:First>M.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Systematic mapping studies in software engineering</b:Title>
+    <b:Year>2008</b:Year>
+    <b:ConferenceName>Proceedings of the 12th International Conference on Evaluation and Assessment in Software Engineering</b:ConferenceName>
+    <b:Publisher>BCS Learning &amp; Development</b:Publisher>
+    <b:Pages>68-77</b:Pages>
+    <b:URL>https://doi.org/10.14236/ewic/EASE2008.8</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Pet15</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A024}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Petersen</b:Last>
+            <b:First>K.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Vakkalanka</b:Last>
+            <b:First>S.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Kuzniarz</b:Last>
+            <b:First>L.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Guidelines for conducting systematic mapping studies in software engineering: An update</b:Title>
+    <b:Year>2015</b:Year>
+    <b:JournalName>Information and Software Technology</b:JournalName>
+    <b:Volume>64</b:Volume>
+    <b:Pages>1-18</b:Pages>
+    <b:URL>https://doi.org/10.1016/j.infsof.2015.03.007</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>Pri22</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A025}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Priem</b:Last>
+            <b:First>J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Piwowar</b:Last>
+            <b:First>H.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Orr</b:Last>
+            <b:First>R.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts</b:Title>
+    <b:Year>2022</b:Year>
+    <b:ConferenceName>26th International Conference on Science, Technology and Innovation Indicators (STI 2022)</b:ConferenceName>
+    <b:City>Granada, España</b:City>
+    <b:URL>https://doi.org/10.5281/zenodo.6936227</b:URL>
+  </b:Source>
+  <b:Source><b:Tag>Rei20</b:Tag><b:SourceType>ConferenceProceedings</b:SourceType><b:Guid>{73DD23CF-D146-4F2B-8633-8DC57C9F898F}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Reimers</b:Last><b:First>N.</b:First></b:Person><b:Person><b:Last>Gurevych</b:Last><b:First>I.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Making monolingual sentence embeddings multilingual using knowledge distillation</b:Title><b:Year>2020</b:Year><b:ConferenceName>Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</b:ConferenceName><b:Publisher>Association for Computational Linguistics</b:Publisher><b:Pages>4512-4525</b:Pages><b:URL>https://doi.org/10.18653/v1/2020.emnlp-main.365</b:URL></b:Source><b:Source>
+    <b:Tag>Zha21</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7E42D9B1-3A6F-4C28-9D15-B2E8C4F0A026}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:Last>Zhao</b:Last>
+            <b:First>L.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Alhoshan</b:Last>
+            <b:First>W.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Ferrari</b:Last>
+            <b:First>A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Letsholo</b:Last>
+            <b:First>K. J.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Ajagbe</b:Last>
+            <b:First>M. A.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Chioasca</b:Last>
+            <b:First>E.-V.</b:First>
+          </b:Person>
+          <b:Person>
+            <b:Last>Batista-Navarro</b:Last>
+            <b:First>R. T.</b:First>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Natural language processing for requirements engineering: A systematic mapping study</b:Title>
+    <b:Year>2021</b:Year>
+    <b:JournalName>ACM Computing Surveys</b:JournalName>
+    <b:Volume>54</b:Volume>
+    <b:Issue>3</b:Issue>
+    <b:Pages>Artículo 55</b:Pages>
+    <b:URL>https://doi.org/10.1145/3444689</b:URL>
+  </b:Source>
+</b:Sources>

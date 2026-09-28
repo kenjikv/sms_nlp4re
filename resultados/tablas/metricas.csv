@@ -1,0 +1,11 @@
+categoria,n,denominador,porcentaje
+F1 o medida F,93,533,17.4484
+acuerdo entre evaluadores,9,533,1.6886
+exactitud (accuracy),78,533,14.6341
+exhaustividad (recall),63,533,11.8199
+"métricas de generación (BLEU, ROUGE, METEOR, BERTScore)",9,533,1.6886
+métricas de recuperación o ranking,9,533,1.6886
+otras,108,533,20.2627
+precisión,63,533,11.8199
+similitud (coseno o semántica),15,533,2.8143
+tiempo o latencia,19,533,3.5647

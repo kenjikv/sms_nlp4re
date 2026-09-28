@@ -1,0 +1,9 @@
+rid,flujo,titulo,anio,doi,tarea_principal,cita_lengua_datos
+K-N4,ronda2_kappa,Evaluating Non-Functional Requirements Classification for Spanish Text: Traditional vs. Deep Learning Approaches,2023,https://doi.org/10.52591/lxai202312103,clasificacion,"a translation of this dataset was performed to obtain a dataset in the Spanish language, a 'Translated PROMISE'"
+D-W4415776450,dirigida,Improving the Multi-Class Classification of Non-Functional Requirements in Spanish: A Study of Dataset Balancing and Performance,2025,10.1007/s10664-025-10736-9,clasificacion,classifying non-functional requirements translated into and originally written in Spanish
+D-W7152448926,dirigida,Automatic criteria for prioritizing software requirements in Spanish projects,2026,10.1016/j.jss.2026.112858,priorizacion,we investigate the prioritization of requirements written in Spanish using automated criteria
+K-N8,ronda2_kappa,Towards an automatic classification for Spanish software requirements,2023,https://doi.org/10.29007/b8sk,clasificacion,Spanish requirements classification
+W4406905466,principal,Evaluation of natural language processing models to measure similarity between scenarios written in Spanish,2025,10.12957/cadinf.2024.87935,similitud_y_recuperacion,measure similarity between scenarios written in Spanish
+W4410357310,principal,SimRE: A Requirements Similarity Tool for Software Product Lines,2025,10.1145/3672608.3707758,similitud_y_recuperacion,We focused on GIS/SPL domain and the Spanish language
+W4362514045,principal,Requirements Classification Using FastText and BETO in Spanish Documents,2023,10.1007/978-3-031-29786-1_11,clasificacion,Spanish Documents
+W2215181216,principal,Un modelo de procesamiento de lenguaje natural para la detección de errores en requisitos de software,2015,,ambiguedad_y_calidad,detectar estos errores automaticamente en requisitos de software desde el idioma espanol

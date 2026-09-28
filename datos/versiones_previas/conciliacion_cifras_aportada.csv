@@ -1,0 +1,277 @@
+grupo,medida,valor
+selección · principal,identificados,1457
+selección · principal,duplicados,89
+selección · principal,cribados,1368
+selección · principal,excluidos,591
+selección · principal,excluidos NO-CI1,307
+selección · principal,excluidos CE1,114
+selección · principal,excluidos CE2,53
+selección · principal,excluidos CE3,62
+selección · principal,excluidos CE4,9
+selección · principal,excluidos CE6,46
+selección · principal,sin información suficiente,244
+selección · principal,incluidos,533
+selección · dirigida,identificados,278
+selección · dirigida,duplicados,16
+selección · dirigida,cribados,262
+selección · dirigida,excluidos,237
+selección · dirigida,excluidos NO-CI1,170
+selección · dirigida,excluidos CE1,31
+selección · dirigida,excluidos CE2,4
+selección · dirigida,excluidos CE3,25
+selección · dirigida,excluidos CE4,0
+selección · dirigida,excluidos CE6,7
+selección · dirigida,sin información suficiente,23
+selección · dirigida,incluidos,2
+selección · ronda2_kappa,identificados,11
+selección · ronda2_kappa,duplicados,1
+selección · ronda2_kappa,cribados,10
+selección · ronda2_kappa,excluidos,6
+selección · ronda2_kappa,excluidos NO-CI1,2
+selección · ronda2_kappa,excluidos CE1,0
+selección · ronda2_kappa,excluidos CE2,3
+selección · ronda2_kappa,excluidos CE3,1
+selección · ronda2_kappa,excluidos CE4,0
+selección · ronda2_kappa,excluidos CE6,0
+selección · ronda2_kappa,sin información suficiente,0
+selección · ronda2_kappa,incluidos,4
+selección · total,identificados,1746
+selección · total,duplicados,106
+selección · total,cribados,1640
+selección · total,excluidos,834
+selección · total,excluidos NO-CI1,479
+selección · total,excluidos CE1,145
+selección · total,excluidos CE2,60
+selección · total,excluidos CE3,88
+selección · total,excluidos CE4,9
+selección · total,excluidos CE6,53
+selección · total,sin información suficiente,267
+selección · total,incluidos,539
+extracción,filas,539
+extracción,coincide con los incluidos de la selección,True
+extracción,incluidos principal,533
+extracción,incluidos dirigida,2
+extracción,incluidos ronda2_kappa,4
+extracción principal · anio,2015,12
+extracción principal · anio,2016,11
+extracción principal · anio,2017,9
+extracción principal · anio,2018,13
+extracción principal · anio,2019,14
+extracción principal · anio,2020,24
+extracción principal · anio,2021,23
+extracción principal · anio,2022,30
+extracción principal · anio,2023,38
+extracción principal · anio,2024,74
+extracción principal · anio,2025,175
+extracción principal · anio,2026,110
+extracción principal · tarea_principal,extraccion_a_modelos_u_ontologias,154
+extracción principal · tarea_principal,clasificacion,113
+extracción principal · tarea_principal,generacion,102
+extracción principal · tarea_principal,ambiguedad_y_calidad,80
+extracción principal · tarea_principal,similitud_y_recuperacion,35
+extracción principal · tarea_principal,trazabilidad,23
+extracción principal · tarea_principal,otra,16
+extracción principal · tarea_principal,priorizacion,10
+extracción principal · tipo_contribucion,metodo_o_tecnica,312
+extracción principal · tipo_contribucion,herramienta_o_framework,109
+extracción principal · tipo_contribucion,estudio_empirico_o_comparativo,96
+extracción principal · tipo_contribucion,recurso_o_dataset,13
+extracción principal · tipo_contribucion,otro,3
+extracción principal · lengua_datos,no_declarada,499
+extracción principal · lengua_datos,otra,13
+extracción principal · lengua_datos,ingles,12
+extracción principal · lengua_datos,multilingue,5
+extracción principal · lengua_datos,espanol,4
+extracción principal · disponibilidad,no_declarada,510
+extracción principal · disponibilidad,codigo_o_datos_publicos,23
+extracción principal · familia de recurso (estudios),llm_generativo,265
+extracción principal · familia de recurso (estudios),codificador_bert,117
+extracción principal · familia de recurso (estudios),embeddings,67
+extracción principal · familia de recurso (estudios),similitud_semantica,49
+extracción principal · familia de recurso (estudios),ontologia,47
+extracción principal · familia de recurso (estudios),transformer_otro,39
+extracción principal · familia de recurso (estudios),grafo_conocimiento,30
+extracción principal · familia de recurso (estudios),marcos_roles,17
+extracción principal · familia de recurso (estudios),wordnet,11
+extracción principal · familia de recurso (estudios),otro,10
+extracción principal · familia de recurso (estudios),tesauro_glosario,8
+extracción principal · número de familias por estudio,1,427
+extracción principal · número de familias por estudio,2,89
+extracción principal · número de familias por estudio,3,13
+extracción principal · número de familias por estudio,4,4
+extracción principal · lengua de los datos,estudios que declaran datos en español,4
+extracción principal · tipo de evaluación,experimento_con_metricas,306
+extracción principal · tipo de evaluación,caso_de_estudio_o_demostracion,96
+extracción principal · tipo de evaluación,sin_evaluacion_declarada,51
+extracción principal · tipo de evaluación,no_consta,41
+extracción principal · tipo de evaluación,evaluacion_con_personas,39
+extracción principal · evaluación,estudios que nombran algún conjunto de datos,249
+extracción principal · evaluación,estudios que nombran alguna métrica,263
+extracción principal · comparación con línea base,si,282
+extracción principal · comparación con línea base,no_consta,232
+extracción principal · comparación con línea base,no,19
+extracción principal · conjuntos de datos (estudios),conjunto propio (sin nombre),173
+extracción principal · conjuntos de datos (estudios),"PROMISE (NFR, PROMISE_exp y variantes)",31
+extracción principal · conjuntos de datos (estudios),PURE,13
+extracción principal · conjuntos de datos (estudios),DOORS,3
+extracción principal · conjuntos de datos (estudios),SecReq,3
+extracción principal · conjuntos de datos (estudios),CrowdRE,2
+extracción principal · conjuntos de datos (estudios),reseñas de aplicaciones,2
+extracción principal · conjuntos de datos (estudios),NFR-Review,2
+extracción principal · conjuntos de datos (estudios),NFR-SO,2
+extracción principal · conjuntos de datos (estudios),FR_NFR,2
+extracción principal · conjuntos de datos (estudios),Northwind,1
+extracción principal · conjuntos de datos (estudios),Natural2CTL,1
+extracción principal · métricas (estudios),otras,107
+extracción principal · métricas (estudios),F1 o medida F,93
+extracción principal · métricas (estudios),exactitud (accuracy),78
+extracción principal · métricas (estudios),precisión,63
+extracción principal · métricas (estudios),exhaustividad (recall),63
+extracción principal · métricas (estudios),tiempo o latencia,19
+extracción principal · métricas (estudios),similitud (coseno o semántica),15
+extracción principal · métricas (estudios),métricas de recuperación o ranking,9
+extracción principal · métricas (estudios),"métricas de generación (BLEU, ROUGE, METEOR, BERTScore)",9
+extracción principal · métricas (estudios),acuerdo entre evaluadores,9
+extracción principal · estabilidad del tipo de evaluación,2/2,508
+extracción principal · estabilidad del tipo de evaluación,2/3,23
+extracción principal · estabilidad del tipo de evaluación,2 de 2 válidas (una fallida),1
+extracción principal · estabilidad del tipo de evaluación,sin mayoría,1
+extracción principal · evaluación,estudios con tipo de evaluación distinto de «no consta»,492
+extracción principal · evaluación,estudios con alguna comparación con línea base y cita localizada,278
+citas de los incluidos,con alguna cita decisiva no localizada,0
+citas de los incluidos,con la cita de tarea no localizada,0
+citas de los incluidos (reverificadas),citas de los campos de extracción y de recursos,2653
+citas de los incluidos (reverificadas),localizadas como fragmento literal,2653
+RQ3,usos (pares estudio-recurso concreto),318
+RQ3,recursos concretos,90
+RQ3,estudios con al menos un recurso concreto,196
+RQ3,filas de la tabla de pares,861
+RQ3,filas que solo mencionan el recurso,27
+RQ3,estudios de BERT,84
+RQ3 · cobertura (estudios),con al menos un recurso concreto,196
+RQ3 · cobertura (estudios),solo algoritmos de incrustaciones,17
+RQ3 · cobertura (estudios),solo familias sin versión,30
+RQ3 · cobertura (estudios),"solo clases genéricas, técnicas o herramientas",290
+RQ3 · cobertura (estudios),sin recurso registrado,0
+RQ3 · estado (recursos),directo: multilingüe con el español documentado,35
+RQ3 · estado (usos),directo: multilingüe con el español documentado,92
+RQ3 · estado (estudios distintos),directo: multilingüe con el español documentado,61
+RQ3 · estado (recursos),directo: nativo en español,2
+RQ3 · estado (usos),directo: nativo en español,2
+RQ3 · estado (estudios distintos),directo: nativo en español,2
+RQ3 · estado (recursos),indeterminado: depende de la versión,1
+RQ3 · estado (usos),indeterminado: depende de la versión,1
+RQ3 · estado (estudios distintos),indeterminado: depende de la versión,1
+RQ3 · estado (recursos),sin soporte documentado; adaptación del mismo recurso,17
+RQ3 · estado (usos),sin soporte documentado; adaptación del mismo recurso,153
+RQ3 · estado (estudios distintos),sin soporte documentado; adaptación del mismo recurso,113
+RQ3 · estado (recursos),sin soporte documentado; alternativa distinta,9
+RQ3 · estado (usos),sin soporte documentado; alternativa distinta,11
+RQ3 · estado (estudios distintos),sin soporte documentado; alternativa distinta,10
+RQ3 · estado (recursos),sin soporte documentado; sin equivalente identificado,7
+RQ3 · estado (usos),sin soporte documentado; sin equivalente identificado,18
+RQ3 · estado (estudios distintos),sin soporte documentado; sin equivalente identificado,16
+RQ3 · estado (recursos),sin soporte documentado; versión multilingüe del mismo recurso,7
+RQ3 · estado (usos),sin soporte documentado; versión multilingüe del mismo recurso,16
+RQ3 · estado (estudios distintos),sin soporte documentado; versión multilingüe del mismo recurso,14
+RQ3 · estado (recursos),soporte desconocido; alternativa distinta,4
+RQ3 · estado (usos),soporte desconocido; alternativa distinta,15
+RQ3 · estado (estudios distintos),soporte desconocido; alternativa distinta,15
+RQ3 · estado (recursos),soporte desconocido; sin equivalente identificado,8
+RQ3 · estado (usos),soporte desconocido; sin equivalente identificado,10
+RQ3 · estado (estudios distintos),soporte desconocido; sin equivalente identificado,10
+RQ3 · grupo (recursos),directo,37
+RQ3 · grupo (usos),directo,94
+RQ3 · grupo (recursos),equivalente,37
+RQ3 · grupo (usos),equivalente,195
+RQ3 · grupo (recursos),indeterminado,1
+RQ3 · grupo (usos),indeterminado,1
+RQ3 · grupo (recursos),sin equivalente,15
+RQ3 · grupo (usos),sin equivalente,28
+RQ3 · tipo de evidencia del soporte directo (recursos),declaración de soporte del proveedor,18
+RQ3 · tipo de evidencia del soporte directo (usos),declaración de soporte del proveedor,30
+RQ3 · tipo de evidencia del soporte directo (recursos),evaluación en español publicada por el proveedor,16
+RQ3 · tipo de evidencia del soporte directo (usos),evaluación en español publicada por el proveedor,58
+RQ3 · tipo de evidencia del soporte directo (recursos),nativo,2
+RQ3 · tipo de evidencia del soporte directo (usos),nativo,2
+RQ3 · tipo de evidencia del soporte directo (recursos),presencia en los datos de entrenamiento,1
+RQ3 · tipo de evidencia del soporte directo (usos),presencia en los datos de entrenamiento,4
+RQ3 · subtipo de evidencia del soporte directo (recursos),declaración de soporte del proveedor,18
+RQ3 · subtipo de evidencia del soporte directo (usos),declaración de soporte del proveedor,30
+RQ3 · subtipo de evidencia del soporte directo (recursos),evaluación agregada que incluye el español,3
+RQ3 · subtipo de evidencia del soporte directo (usos),evaluación agregada que incluye el español,3
+RQ3 · subtipo de evidencia del soporte directo (recursos),evaluación con resultado propio del español,11
+RQ3 · subtipo de evidencia del soporte directo (usos),evaluación con resultado propio del español,49
+RQ3 · subtipo de evidencia del soporte directo (recursos),nativo,2
+RQ3 · subtipo de evidencia del soporte directo (usos),nativo,2
+RQ3 · subtipo de evidencia del soporte directo (recursos),presencia en los datos de entrenamiento,1
+RQ3 · subtipo de evidencia del soporte directo (usos),presencia en los datos de entrenamiento,4
+RQ3 · subtipo de evidencia del soporte directo (recursos),solo evaluación de seguridad en español,2
+RQ3 · subtipo de evidencia del soporte directo (usos),solo evaluación de seguridad en español,6
+RQ3 · estatus_soporte (recursos),depende de la versión,1
+RQ3 · estatus_soporte (usos),depende de la versión,1
+RQ3 · estatus_soporte (recursos),sin soporte documentado,40
+RQ3 · estatus_soporte (usos),sin soporte documentado,198
+RQ3 · estatus_soporte (recursos),soporte desconocido,12
+RQ3 · estatus_soporte (usos),soporte desconocido,25
+RQ3 · estatus_soporte (recursos),soporte directo,37
+RQ3 · estatus_soporte (usos),soporte directo,94
+RQ3 · clase_alternativa (recursos),adaptación del mismo recurso,17
+RQ3 · clase_alternativa (usos),adaptación del mismo recurso,153
+RQ3 · clase_alternativa (recursos),alternativa distinta,13
+RQ3 · clase_alternativa (usos),alternativa distinta,26
+RQ3 · clase_alternativa (recursos),depende de la versión,1
+RQ3 · clase_alternativa (usos),depende de la versión,1
+RQ3 · clase_alternativa (recursos),no se necesita,37
+RQ3 · clase_alternativa (usos),no se necesita,94
+RQ3 · clase_alternativa (recursos),sin equivalente identificado,15
+RQ3 · clase_alternativa (usos),sin equivalente identificado,28
+RQ3 · clase_alternativa (recursos),versión multilingüe del mismo recurso,7
+RQ3 · clase_alternativa (usos),versión multilingüe del mismo recurso,16
+RQ3 · acceso (recursos),API o servicio comercial,20
+RQ3 · acceso (usos),API o servicio comercial,72
+RQ3 · acceso (recursos),algoritmo o código,1
+RQ3 · acceso (usos),algoritmo o código,1
+RQ3 · acceso (recursos),indeterminado: depende de la versión,1
+RQ3 · acceso (usos),indeterminado: depende de la versión,1
+RQ3 · acceso (recursos),no localizado,2
+RQ3 · acceso (usos),no localizado,2
+RQ3 · acceso (recursos),pesos o datos descargables,63
+RQ3 · acceso (usos),pesos o datos descargables,239
+RQ3 · acceso (recursos),producto web,3
+RQ3 · acceso (usos),producto web,3
+RQ3 · clase_licencia (recursos),depende de la versión o del producto,1
+RQ3 · clase_licencia (usos),depende de la versión o del producto,1
+RQ3 · clase_licencia (recursos),licencia abierta (OSI o Creative Commons),46
+RQ3 · clase_licencia (usos),licencia abierta (OSI o Creative Commons),205
+RQ3 · clase_licencia (recursos),licencia abierta no comercial,1
+RQ3 · clase_licencia (usos),licencia abierta no comercial,2
+RQ3 · clase_licencia (recursos),"licencia propia de los pesos, con condiciones de uso",13
+RQ3 · clase_licencia (usos),"licencia propia de los pesos, con condiciones de uso",29
+RQ3 · clase_licencia (recursos),no localizada o no verificada,6
+RQ3 · clase_licencia (usos),no localizada o no verificada,6
+RQ3 · clase_licencia (recursos),términos de servicio o acuerdo del proveedor,23
+RQ3 · clase_licencia (usos),términos de servicio o acuerdo del proveedor,75
+RQ3 · algoritmo (estudios),Doc2Vec,3
+RQ3 · algoritmo (estudios),GloVe,7
+RQ3 · algoritmo (estudios),Word2Vec,19
+RQ3 · algoritmo (estudios),fastText,15
+RQ3 · familia_sin_version (estudios),ChatGPT (versión no especificada),22
+RQ3 · familia_sin_version (estudios),Claude (versión no especificada),3
+RQ3 · familia_sin_version (estudios),Cohere (modelo no especificado),1
+RQ3 · familia_sin_version (estudios),DeepSeek (versión no especificada),2
+RQ3 · familia_sin_version (estudios),ERNIE (versión no especificada),1
+RQ3 · familia_sin_version (estudios),GPT (versión no especificada),9
+RQ3 · familia_sin_version (estudios),Gemini (versión no especificada),6
+RQ3 · familia_sin_version (estudios),Gemma (versión no especificada),2
+RQ3 · familia_sin_version (estudios),Grok (versión no especificada),1
+RQ3 · familia_sin_version (estudios),Llama (versión no especificada),3
+RQ3 · familia_sin_version (estudios),Mistral (versión no especificada),4
+RQ3 · familia_sin_version (estudios),Sentence-BERT (modelo no especificado),13
+pendientes,flujo principal,244
+pendientes,flujo dirigida,23
+pendientes · motivo,sin copia de acceso abierto localizada por DOI ni en arXiv,239
+pendientes · motivo,sin DOI: solo se buscó por título en arXiv,26
+pendientes · motivo,búsqueda de texto completo no efectuada (CrossRef 404 en ambos intentos),2
+incidencias,resuelta,27
+incidencias,registros distintos,23
