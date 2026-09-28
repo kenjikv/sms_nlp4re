@@ -1,7 +1,5 @@
 {
-  "version_paquete": "1.0.0",
-  "referencia": "manuscrito v6",
-  "resultado": "correcto",
+  "alcance": "Integridad y consistencia computacional; no validación semántica humana.",
   "comprobaciones": [
     "Identificador único en selección",
     "Identificador único en extracción",
@@ -31,5 +29,7 @@
     "Índice de evidencia cubre todos los registros",
     "Integridad de textos locales mediante SHA-256"
   ],
-  "alcance": "Integridad y consistencia computacional; no validación semántica humana."
+  "referencia": "manuscrito v6",
+  "resultado": "correcto",
+  "version_paquete": "1.0.0"
 }

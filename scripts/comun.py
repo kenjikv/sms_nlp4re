@@ -38,5 +38,5 @@ def comprobar(condicion, mensaje):
 def guardar_json(path, objeto):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(
-        json.dumps(objeto, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(objeto, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
