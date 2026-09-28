@@ -4,6 +4,8 @@
 
 **Paquete de investigación 1.0.0 · Manuscrito v6 · Cierre documental: septiembre de 2026**
 
+[![Validación de datos y resultados](https://github.com/kenjikv/sms_nlp4re/actions/workflows/validar.yml/badge.svg)](https://github.com/kenjikv/sms_nlp4re/actions/workflows/validar.yml)
+
 Datos, decisiones de selección, inventario de recursos y programas de reproducción del mapeo de procesamiento del lenguaje natural aplicado a la ingeniería de requisitos. El estudio caracteriza recursos, tareas, lengua de los datos, evaluación y disponibilidad declarada, con atención al español.
 
 [Artículo en Word](manuscrito/Mapeo_Sistematico_NLP4RE_espanol_v6.docx) · [Metodología](documentacion/METODOLOGIA.md) · [Guía de datos](datos/README.md) · [Reproducir resultados](documentacion/REPRODUCIBILIDAD.md) · [Cómo citar](CITATION.cff)
@@ -74,9 +76,9 @@ El [diccionario de campos](documentacion/DICCIONARIO_DATOS.md) explica los indic
 
 ### Citación y disponibilidad
 
-Autor del paquete: **Kenji Kawaida Villegas**. La versión local preparada es **1.0.0**, vinculada al manuscrito **v6**. No se asigna un DOI ni una dirección pública ficticia. Al publicar, se registrarán en `CITATION.cff` la dirección real del repositorio, la fecha de publicación y el DOI de la versión archivada.
+Autor del paquete: **Kenji Kawaida Villegas**. La versión **1.0.0** está vinculada al manuscrito **v6**. El repositorio público está disponible en [GitHub](https://github.com/kenjikv/sms_nlp4re) y la versión identificada en [v1.0.0](https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0). El depósito en Zenodo y la asignación de DOI permanecen pendientes.
 
-Citación provisional: Kawaida Villegas, K. (2026). *SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE* (versión 1.0.0) [Conjunto de datos y programas]. Paquete local asociado al manuscrito v6.
+Citación: Kawaida Villegas, K. (2026). *SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE* (versión 1.0.0) [Conjunto de datos y programas]. GitHub. https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0
 
 Los programas propios se distribuyen bajo MIT. La documentación original y las aportaciones propias a los datos se ofrecen bajo CC BY 4.0, con las exclusiones indicadas en [LICENSE.md](LICENSE.md). Las citas, los metadatos externos, los recursos estudiados y el manuscrito tienen el alcance de derechos indicado allí.
 

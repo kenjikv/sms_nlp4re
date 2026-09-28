@@ -56,7 +56,7 @@ python scripts/verificar_integridad.py
 
 Tras una modificación autorizada, regenere los resultados, revise la diferencia y actualice conscientemente el manifiesto con `python scripts/verificar_integridad.py --actualizar`. No use esta opción para ocultar una diferencia no explicada.
 
-La configuración de GitHub Actions incluida ejecutará los controles de datos cuando el repositorio se publique y se habiliten las acciones. No se afirma que esa ejecución remota ya haya ocurrido.
+La configuración de GitHub Actions comprueba la integridad y reproduce las tablas en cada envío o propuesta de cambio. El estado de la ejecución más reciente puede consultarse en la insignia del README o en la sección Actions de GitHub.
 
 ## Qué no se reproduce
 

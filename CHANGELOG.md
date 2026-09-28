@@ -2,7 +2,7 @@
 
 ## 1.0.0 — 2026-09-27
 
-Primera preparación local del repositorio de investigación, basada en el manuscrito v6.
+Primera versión del repositorio de investigación, basada en el manuscrito v6 y publicada en GitHub.
 
 - Organización de selección, extracción, inventario RQ3, auditoría, referencias y artículo.
 - Conservación de instantáneas de origen y registro de 12 correcciones previas de v6.
@@ -11,6 +11,7 @@ Primera preparación local del repositorio de investigación, basada en el manus
 - Verificación de identificadores, relaciones, duplicados, denominadores y referencia numérica.
 - Guías de método, datos, límites y citación; catálogo y esquema de columnas.
 - Evidencia textual completa separada en una carpeta local excluida de Git.
-- Metadatos de citación preparados sin DOI, dirección pública ni fecha de publicación ficticios.
+- Metadatos de citación con la dirección pública real y la fecha de publicación local.
+- Publicación de la rama `main` y la versión `v1.0.0` en `kenjikv/sms_nlp4re`; DOI pendiente.
 
-La fecha identifica la preparación del paquete local, no una publicación en GitHub o Zenodo.
+La fecha corresponde al día local de preparación y publicación (America/La_Paz). La publicación en GitHub se registra el 28 de septiembre en UTC. No se ha realizado un depósito en Zenodo.

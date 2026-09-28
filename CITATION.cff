@@ -1,11 +1,14 @@
 cff-version: 1.2.0
-message: "Cite este suplemento y el artículo asociado cuando utilice sus datos. Metadatos de la versión local; DOI y dirección pública pendientes de publicación."
+message: "Cite este suplemento y el artículo asociado cuando utilice sus datos. Versión 1.0.0 publicada en GitHub; depósito en Zenodo y DOI pendientes."
 type: dataset
 title: "SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE"
 authors:
   - family-names: "Kawaida Villegas"
     given-names: "Kenji"
 version: "1.0.0"
+date-released: "2026-09-27"
+repository-code: "https://github.com/kenjikv/sms_nlp4re"
+url: "https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0"
 abstract: "Selección, extracción, inventario de recursos, auditoría y programas de reproducción del manuscrito v6, con 539 estudios incluidos, 533 en el análisis principal y atención a la lengua española. La reproducción cubre agregaciones y figuras; no sustituye la validación humana de las decisiones."
 keywords:
   - "ingeniería de requisitos"
