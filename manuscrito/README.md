@@ -1,9 +1,9 @@
-# Manuscrito asociado
+# Manuscritos del mapeo
 
-El archivo Word es una copia exacta de la versión v6 entregada al autor, con seis tablas, cinco figuras y 24 fuentes bibliográficas registradas. La fuente Markdown conserva su contenido y adapta las rutas de las figuras a este repositorio.
+La versión vigente es el [artículo v10](Mapeo_Sistematico_NLP4RE_espanol_v10.docx), acompañado por su [fuente textual](Mapeo_Sistematico_NLP4RE_espanol_v10_fuente.txt). El documento tiene 22 páginas, seis tablas, cinco figuras y 35 referencias. Su discusión y conclusiones vinculan los hallazgos con la investigación de la ambigüedad y la dispersión interpretativa en requisitos escritos en español.
 
-El artículo describe el método y sus limitaciones. La versión 1.0.0 del repositorio consolida contadores derivados de la extracción sin cambiar los resultados agregados de v6. Los detalles están en `../documentacion/PROCEDENCIA.md`.
+El Word publicado coincide exactamente con la versión aprobada por el autor. El apartado de disponibilidad enlaza los datos de la publicación 1.1.0, que permanecen vigentes en esta actualización editorial. La sintaxis de la fuente textual identifica títulos, tablas y figuras para conservar su ubicación en el manuscrito.
 
-Los dictámenes de revisión, respuestas a revisores e informes de correcciones editoriales permanecen en la entrega de trabajo del autor. No forman parte del suplemento preparado para publicación.
+Se conservan el [artículo v8](Mapeo_Sistematico_NLP4RE_espanol_v8.docx), asociado a 1.1.0, y el [artículo v6](Mapeo_Sistematico_NLP4RE_espanol_v6.docx), asociado a 1.0.0. La v9 fue una revisión editorial intermedia conservada en el archivo local del autor.
 
-No se declara que este manuscrito esté aceptado o publicado, ni se asigna un DOI editorial. Su inclusión no constituye una licencia abierta de redistribución; consulte `../LICENSE.md`.
+Los manuscritos se ofrecen como versiones de trabajo para consulta. Su inclusión no declara aceptación editorial ni les asigna un DOI o una licencia abierta de redistribución. Las condiciones de reutilización constan en [LICENSE.md](../LICENSE.md).

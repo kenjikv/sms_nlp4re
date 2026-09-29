@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-message: "Cite este suplemento y el artículo asociado cuando utilice sus datos. Suplemento 1.1.0 asociado al manuscrito v8."
+message: "Cite este suplemento y el artículo asociado cuando utilice sus datos. Publicación 1.1.1 asociada al manuscrito v10, con los datos del suplemento 1.1.0."
 type: dataset
 title: "SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE"
 authors:
   - family-names: "Kawaida Villegas"
     given-names: "Kenji"
-version: "1.1.0"
-date-released: "2026-09-28"
-url: "https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.1.0"
+version: "1.1.1"
+date-released: "2026-09-29"
+url: "https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.1.1"
 repository-code: "https://github.com/kenjikv/sms_nlp4re"
-abstract: "Suplemento del manuscrito v8 con 550 estudios incluidos, 544 en el análisis general, 132 recursos concretos y 389 usos. Solo se incorporan publicaciones formales confirmadas. El cribado complementario es parcial y la reproducción no sustituye la validación humana."
+abstract: "Publicación del manuscrito v10 con revisión de la discusión y las conclusiones sobre ambigüedad y dispersión interpretativa. Conserva los datos de 1.1.0: 550 estudios incluidos, 544 en el análisis general, 132 recursos concretos y 389 usos. Solo se incorporan publicaciones formales confirmadas. El cribado complementario es parcial y la reproducción no sustituye la validación humana."
 keywords:
   - "ingeniería de requisitos"
   - "procesamiento del lenguaje natural"

@@ -17,6 +17,6 @@ Titular identificado para las aportaciones propias: Kenji Kawaida Villegas, 2026
 - Los títulos, resúmenes, fragmentos citados y demás material de publicaciones externas mantienen los derechos y condiciones de sus fuentes. CC BY 4.0 no se extiende a esos textos por estar citados en una tabla.
 - Los recursos inventariados y conjuntos externos, incluidos PROMISE y PURE, conservan sus condiciones originales. La columna `licencia` describe evidencia sobre cada recurso; no concede derechos nuevos sobre él.
 - Los textos completos conservados en `evidencia_local/` no forman parte del contenido versionado ni de la distribución preparada para GitHub.
-- El manuscrito Word y su fuente Markdown, dentro de `manuscrito/`, se incluyen como versión de trabajo del autor para consulta. No se les asigna aquí una licencia abierta de redistribución; su reutilización se rige por la autorización del autor y las condiciones editoriales que correspondan.
+- Los manuscritos Word y sus fuentes textuales, dentro de `manuscrito/`, se incluyen como versión de trabajo del autor para consulta. No se les asigna aquí una licencia abierta de redistribución; su reutilización se rige por la autorización del autor y las condiciones editoriales que correspondan.
 
 La licencia de una aportación no garantiza exactitud, exhaustividad bibliográfica ni validación humana de las decisiones. El alcance del estudio y de la validación se describe en `documentacion/AMPLIACION_V8.md` y `documentacion/REVISION_DEL_AUTOR_V8.md`.

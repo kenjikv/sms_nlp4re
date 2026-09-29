@@ -1,0 +1,144 @@
+@TITLE Recursos léxico-semánticos en NLP4RE y evidencia para el procesamiento de requisitos en español
+
+@H Resumen
+
+El procesamiento de lenguaje natural puede ayudar a organizar, revisar y redactar requisitos de software, pero elegir un recurso para trabajar en español exige conocer qué aplicaciones lo respaldan. Este mapeo relaciona recursos, tareas y evidencia lingüística en 550 estudios publicados entre 2015 y 2026, recuperados mediante OpenAlex y búsquedas complementarias. El análisis general comprende 544 estudios y el examen del español incorpora además seis de búsquedas dirigidas. La selección, extracción, clasificación y resultados de la base previa fueron validados por el autor, con un ejercicio adicional de concordancia por pares.
+
+El estudio identifica una diferencia entre la oferta tecnológica y su aplicación documentada al español. El 29,5 % de los recursos concretos tiene respaldo lingüístico directo y el 51,5 % cuenta con una vía de adaptación o sustitución. Esto permite organizar la selección según el trabajo necesario para trasladar cada método. Las aplicaciones en español ofrecen antecedentes para clasificar y comparar requisitos, mientras otras tareas requieren mayor comprobación. El aporte es una base para elegir qué experiencias reutilizar y qué evaluar antes de incorporar un recurso a un proyecto.
+
+@KEY Palabras clave: ingeniería de requisitos, procesamiento de lenguaje natural, recursos léxico-semánticos, español, mapeo sistemático.
+
+@H Abstract
+
+Natural language processing can help organize, review, and write software requirements, but selecting a resource for Spanish requires understanding the applications that support its use. This mapping links resources, tasks, and language evidence across 550 studies published between 2015 and 2026, retrieved through OpenAlex and supplementary searches. The general analysis covers 544 studies, while the Spanish-focused examination also draws on six studies from targeted searches. Selection, extraction, classification, and results in the previous dataset were validated by the author, with an additional inter-rater agreement exercise.
+
+The study identifies a gap between available technology and its documented application to Spanish requirements. Direct language support is documented for 29.5% of identifiable resources, while 51.5% have an adaptation or substitution route. These findings help organize resource selection around the work needed to transfer each method. Spanish applications provide precedents for classifying and comparing requirements, while other tasks need further investigation. The contribution is a basis for choosing which experiences to reuse and what to evaluate before introducing a resource into a project.
+
+@KEY Keywords: requirements engineering, natural language processing, lexical-semantic resources, Spanish, systematic mapping.
+
+@H Introducción
+
+Un requisito expresa una necesidad o una regla que un sistema debe cumplir, como proteger la información de sus usuarios o permitirles realizar una operación. Cuando esas necesidades se redactan de forma ambigua, repetida o incompleta, resulta difícil decidir qué construir y cómo comprobarlo. El procesamiento de lenguaje natural aplicado a la ingeniería de requisitos, conocido como NLP4RE, estudia formas de apoyar ese trabajo mediante el análisis automático del texto.
+
+Los recursos léxico-semánticos representan palabras, significados y relaciones para hacer posible ese análisis. Algunos organizan conocimiento explícito, como WordNet y FrameNet (Miller, 1995; Baker et al., 1998). Otros aprenden representaciones a partir de textos, como fastText y BERT (Bojanowski et al., 2017; Devlin et al., 2019), o permiten generar contenido mediante modelos de lenguaje. Su utilidad depende de la tarea: reconocer requisitos parecidos exige operaciones distintas de redactar una especificación o detectar una contradicción.
+
+Trabajar en español añade una decisión: determinar cuánto de una experiencia previa puede aprovecharse con textos de otro idioma. Existen aplicaciones a la ambigüedad, la clasificación y la similitud (Guzmán Luna et al., 2015; Limaylla-Lunarejo et al., 2023b; Pérez et al., 2025), pero aparecen dispersas entre recursos, conjuntos de datos y tareas diferentes. Reunirlas permite reconocer puntos de partida y distinguir cuándo hace falta adaptar un método, comprobarlo con nuevos datos o investigar una tarea poco cubierta.
+
+Los mapeos sistemáticos organizan estas relaciones para reconocer tendencias y vacíos de investigación (Petersen et al., 2008; Petersen et al., 2015). A partir de la caracterización de NLP4RE de Zhao y colaboradores (Zhao et al., 2021), este estudio incorpora el vínculo entre recursos y evidencia del español. Su objetivo es establecer qué puede aportar la investigación disponible al procesamiento de requisitos en esa lengua. Las preguntas de la tabla 1 conectan la descripción del campo con las posibilidades concretas de reutilizar sus resultados.
+
+@TABLE 19|Tabla 1|Preguntas de investigación
+@NOTE RQ significa pregunta de investigación. La transferencia se examina a partir de la evidencia documental y de las aplicaciones identificadas.
+
+@H Método
+
+Se realizó un mapeo sistemático de estudios publicados entre 2015 y 2026, siguiendo las orientaciones de Petersen y colaboradores (Petersen et al., 2015). Se revisó y validó la selección, la extracción de datos, la clasificación de recursos y los resultados de la base previa. La asistencia de un modelo de lenguaje y las comprobaciones computacionales apoyaron ese trabajo. El análisis relaciona características de las publicaciones y sus recursos, sin combinar resultados experimentales como si procedieran de una misma prueba.
+
+La búsqueda principal utilizó OpenAlex (Priem et al., 2022) y combinó términos de requisitos de software con recursos léxicos, representaciones semánticas y modelos de lenguaje. Se añadieron una búsqueda dirigida al español y registros de una ronda de concordancia. La ampliación consultó arXiv para recuperar versiones abiertas y exigió publicación formal verificable en revista o congreso. Se contrastaron título, autoría y DOI para evitar duplicar publicaciones. Las cadenas, fechas, filtros y decisiones individuales se conservan en el suplemento.
+
+Se incluyeron estudios primarios en español, inglés o portugués que aplicaban procesamiento de lenguaje natural o aprendizaje automático a requisitos de software y utilizaban o construían un recurso léxico-semántico. Se excluyeron trabajos de otros dominios, estudios secundarios y menciones de recursos sin aplicación. La ampliación añadió once publicaciones a las 539 de la base previa, con su revisión por el autor identificada como etapa posterior. Los candidatos sin información suficiente o aún no examinados quedaron fuera de la síntesis.
+
+La extracción relacionó cada recurso con su tarea, datos y evaluación mediante las dimensiones de la tabla 2. La lengua se identificó a partir de los datos utilizados, de forma independiente del idioma del artículo. Para evitar recuentos duplicados se normalizaron nombres y se contó una sola vez cada combinación de estudio y recurso. Los algoritmos genéricos y las familias sin versión identificable se separaron del inventario de recursos concretos. Los campos no determinados se conservaron como tales.
+
+@TABLE 28|Tabla 2|Dimensiones de caracterización y criterios de interpretación
+@NOTE La información extraída se vincula con las fuentes consultadas. Los campos no determinados se conservan explícitamente.
+
+El respaldo del español se contrastó con publicaciones, documentación oficial y fichas de los recursos. Se distinguió el soporte directo, la adaptación del mismo recurso, su versión multilingüe y la sustitución por una alternativa funcional. Esta separación distingue formas de trasladar un método al español y el tipo de intervención que cada una supone. El soporte directo reúne declaraciones y evaluaciones de distinto alcance, por lo que se registró también su fundamento. Su presencia acredita respaldo lingüístico, no rendimiento probado sobre requisitos.
+
+La concordancia por pares se examinó con kappa de Cohen (Cohen, 1960). La ronda documentada reunió 18 pares de decisiones, con 17 coincidencias y κ = 0,640. El predominio de inclusiones explica la necesidad de interpretar conjuntamente acuerdo observado y kappa (Feinstein y Cicchetti, 1990). Este control corresponde a una muestra de registros españoles y a un protocolo previo. Su alcance se distingue de la revisión más amplia realizada por el autor sobre selección, extracción, clasificación y resultados.
+
+@H Resultados
+
+@SUB Qué problemas aborda la investigación disponible
+
+El corpus reúne 550 estudios. Las distribuciones generales comprenden 544 y el examen complementario conserva seis de búsquedas dirigidas. Como muestran la tabla 3 y la figura 1, una búsqueda de alcance general necesitó complementarse para caracterizar el español: las vías dirigidas aportaron la mitad de los ocho estudios que declaran datos en esa lengua. El hallazgo indica que la cobertura temática y la cobertura lingüística requieren atención propia al reunir antecedentes para una aplicación.
+
+@TABLE 57|Tabla 3|Procedencia de los estudios incluidos
+@NOTE Las consultas pueden solaparse. Solo se suman inclusiones nuevas verificadas. Los seis estudios complementarios forman parte del corpus, pero no de las distribuciones generales.
+
+@FIG 61|Figura 1|Selección histórica e incorporación complementaria
+@NOTE Los registros pendientes de información y los resultados de arXiv aún sin cribar permanecen fuera de la síntesis. El detalle de las decisiones se conserva en el suplemento.
+
+La concentración reciente de publicaciones de la figura 2 muestra que buena parte de las experiencias disponibles pertenece a una etapa de expansión del campo. Para quien busca reutilizar un método, esto supone una oferta amplia de propuestas recientes cuyo seguimiento entre versiones y proyectos cobra especial importancia. El mapeo permite situar cada propuesta en esa evolución. La menor altura de 2026 corresponde a un año parcial y no permite inferir una disminución del interés investigador.
+
+@FIG 68|Figura 2|Distribución anual de los estudios entre 2015 y 2026
+@NOTE Análisis general de 544 estudios. El asterisco y el rayado identifican 2026 como año parcial. Las nuevas incorporaciones se sitúan por año de publicación editorial.
+
+La investigación se concentra en transformar textos en estructuras, clasificarlos y generar contenido. En conjunto, estas tareas reúnen el 68,9 % del análisis general. Esta orientación ofrece más antecedentes para organizar o producir documentos que para decidir qué requisito atender primero o seguir sus relaciones con otros documentos. Para un equipo que prepara una especificación, el mapa facilita localizar experiencias cercanas a su trabajo. Para uno que busca priorizar o mantener esas relaciones, muestra una base comparativa más reducida.
+
+@FIG 76|Figura 3|Relación entre familias de recursos y tareas
+@NOTE Cada celda representa estudios. Un estudio puede utilizar varias familias, pero tiene una sola tarea principal. Las tareas auxiliares se conservan en la extracción.
+
+El cruce de la figura 3 permite elegir antecedentes según la función buscada. Los modelos generativos se asocian con producir o estructurar contenido, mientras los codificadores contextuales aparecen especialmente en clasificación. Las representaciones explícitas, como ontologías y grafos, permiten examinar relaciones entre conceptos. Su combinación con generación en algunos estudios ilustra una posibilidad útil: producir una propuesta y disponer después de una estructura para revisarla (McFarland y Yue, 2026; Bazin et al., 2025). Así, las familias pueden cumplir funciones complementarias dentro de un método.
+
+La menor presencia de trazabilidad merece atención porque esta tarea permite conectar un requisito con la norma, necesidad o documento que lo justifica. Los trabajos de Alturayeif y colaboradores (2026) y Etezadi y colaboradores (2026) muestran la influencia de las instrucciones y del contexto documental al recuperar esos vínculos. La implicación es que incorporar un modelo exige definir qué relación debe reconocer y qué omisiones serían relevantes. Su utilidad se juega en la corrección de esas conexiones, además de la capacidad de procesar texto.
+
+@SUB Qué permiten afirmar las evaluaciones
+
+El predominio de experimentos con métricas en la tabla 4 indica que la evidencia se orienta principalmente a comprobar resultados frente a respuestas de referencia. Esto ayuda a saber si un método clasifica o recupera información correctamente bajo ciertas condiciones. Para decidir su uso cotidiano falta además conocer cómo afecta al trabajo de las personas: qué errores deben corregir y si las salidas les permiten tomar mejores decisiones. La menor presencia de evaluaciones con personas como modalidad principal señala esa necesidad de comprobación.
+
+@TABLE 82|Tabla 4|Tipo de evaluación declarado
+@NOTE Distribución sobre 544 estudios. La categoría principal admite evaluaciones secundarias. La falta de declaración se refiere al texto consultado.
+
+Los estudios con personas aportan elementos para formular esa comprobación: calidad de las observaciones, utilidad percibida y pertinencia de las mejoras propuestas (Lubos et al., 2024; Neo et al., 2024; Zhang et al., 2024). En la generación de especificaciones, la calidad también varía entre secciones (Krishna et al., 2024). En consecuencia, el beneficio de una herramienta necesita valorarse sobre el documento que queda después de revisarla. Producir más texto puede ayudar a elaborar una propuesta, pero el esfuerzo de corrección forma parte de su utilidad.
+
+La frecuencia de conjuntos propios muestra que muchos métodos se prueban con datos preparados para una investigación concreta. Esto permite estudiar problemas específicos, aunque dificulta elegir entre soluciones evaluadas en condiciones distintas. Comparaciones sobre una tarea común, como la de Khayashi y colaboradores (2026), ofrecen una base más delimitada para esa elección. El mapeo identifica, por tanto, la necesidad de pruebas compartidas: mantener los mismos requisitos y criterios permitiría atribuir con mayor fundamento las diferencias observadas al método utilizado.
+
+@SUB Qué puede aprovecharse para trabajar en español
+
+El inventario de 132 recursos concretos permite distinguir dos situaciones para su reutilización. El 29,5 % dispone de respaldo directo del español, que ofrece un punto de partida lingüístico para una evaluación. En el 51,5 % se identificó una adaptación, versión multilingüe o alternativa funcional. Para este segundo grupo, seguir la vía identificada supone modificar algún componente del método y comprobar su resultado. El aporte de la tabla 5 es hacer visible ese trabajo previo a la adopción, que una lista de nombres no permite reconocer.
+
+@TABLE 90|Tabla 5|Respaldo del español y vías de adaptación de los recursos
+@NOTE Un uso es una combinación de estudio y recurso, contada una sola vez. Las alternativas funcionales son candidatos que requieren evaluación. Soporte desconocido no equivale a ausencia.
+
+La distribución de usos de la figura 4 añade una prioridad posible: 17 recursos con una adaptación identificada concentran el 40,4 % de los usos del inventario. Una parte considerable de los usos corresponde así a un grupo acotado de recursos con una vía de adaptación lingüística. Evaluar sus adaptaciones podría aportar resultados pertinentes para varios métodos documentados. Esta lectura ayuda a delimitar un programa de comparación, aunque la recurrencia por sí sola no establece qué opción funcionará mejor.
+
+@FIG 95|Figura 4|Respaldo documental del español en los recursos y sus usos
+@NOTE El panel a distingue 132 recursos y 389 usos procedentes de 204 estudios. El panel b desglosa la evidencia directa. Los rayados señalan soporte desconocido o pendiente de verificación.
+
+El tipo de respaldo también cambia la decisión que puede tomarse. Una declaración del proveedor permite incluir un modelo entre los candidatos para español. Una evaluación sobre textos españoles aporta información sobre su comportamiento en una tarea determinada, como ilustra el informe de GPT-4 (OpenAI, 2023). Para aplicarlo a requisitos queda por examinar si reconoce correctamente las necesidades y restricciones del proyecto. El desglose de la figura 4 permite localizar esa distancia entre admitir un idioma y resolver el problema profesional que interesa.
+
+@TABLE 103|Tabla 6|Aplicaciones documentadas con requisitos en español
+@NOTE El trabajo de balanceo apareció en línea en 2025 y pertenece al volumen de 2026. La referencia utiliza el año del volumen. Los ocho estudios cumplen el protocolo aplicado.
+
+Los estudios de la tabla 6 ofrecen puntos de partida concretos para clasificar requisitos, encontrar semejanzas, revisar ambigüedad y apoyar la priorización. Su contribución conjunta es mostrar experiencias que pueden examinarse al diseñar nuevas evaluaciones en español. La variedad de datos introduce una decisión adicional: un método probado con traducciones, textos sintéticos o requisitos escritos originalmente en español aborda condiciones distintas. Elegir el antecedente más próximo al origen de los textos del proyecto permite formular una comparación pertinente.
+
+Los conjuntos ReSpaN, PrioReSpa y las traducciones de PROMISE aportan material para realizar esas pruebas, mientras BETO o los vectores SBWCE representan el lenguaje que procesan los métodos (Cardellino, 2016). Esta distinción permite reconocer dos necesidades complementarias: contar con recursos lingüísticos y disponer de requisitos con los que evaluarlos. El trabajo sobre un conjunto FAIR aporta a la segunda, aunque su construcción sin aplicación de NLP quedó fuera de los criterios de inclusión (Limaylla-Lunarejo et al., 2023c).
+
+@FIG 114|Figura 5|Tareas del análisis general y de las aplicaciones en español
+@NOTE El panel izquierdo incluye 544 estudios y el derecho, ocho con datos españoles. Cuatro aparecen en ambos. Las escalas difieren y los ceros se refieren a la selección obtenida.
+
+La comparación de la figura 5 permite concretar qué ampliaría la evidencia en español. La extracción de estructuras y la trazabilidad carecen de aplicaciones explícitas en este subconjunto, pese a formar parte del panorama general. La generación aparece como apoyo para crear datos de clasificación, pero no como tarea principal. Estas diferencias orientan nuevas evaluaciones hacia necesidades específicas: conservar el significado al estructurar requisitos, recuperar sus vínculos y comprobar la calidad de textos generados. Los ceros delimitan prioridades dentro del corpus, sin demostrar ausencia en toda la literatura.
+
+@H Discusión
+
+El mapeo permite orientar la investigación hacia la relación entre los recursos disponibles y la comprensión de los requisitos en español. La presencia de aplicaciones de ambigüedad y calidad, incluido el trabajo de Guzmán Luna y colaboradores (Guzmán Luna et al., 2015), aporta antecedentes para detectar problemas del texto. A partir de ellos surge una cuestión adicional: en qué medida ese apoyo consigue que quienes leen un requisito comprendan las mismas obligaciones, condiciones y comportamientos esperados del sistema.
+
+Para precisar esta cuestión, se entiende aquí por ambigüedad la posibilidad de atribuir al requisito lecturas plausibles con significados distintos, y por dispersión interpretativa las diferencias de significado efectivamente observadas entre lectores. Como ejemplo ilustrativo, “el sistema notificará a clientes y proveedores registrados” puede dejar dudas sobre si la condición de estar registrado también afecta a los clientes. Lo relevante es que las lecturas conduzcan a comportamientos diferentes. La dispersión también puede deberse a conocimientos o contexto distintos, por lo que necesita examinarse su relación con la ambigüedad.
+
+El vacío de conocimiento que se plantea es determinar hasta qué punto los recursos léxico-semánticos permiten identificar y reducir esa dispersión interpretativa en requisitos escritos en español, preservando la intención de quien los solicita. Detectar una expresión problemática o generar una redacción más fluida no establece por sí mismo ese efecto. La cuestión exige relacionar el diagnóstico automático con las interpretaciones de personas y comprobar si, después de una aclaración o reformulación, disminuyen las diferencias que afectan al comportamiento esperado del sistema.
+
+El inventario aporta candidatos para investigar esa relación. BETO y la familia MarIA ofrecen representaciones del español (Cañete et al., 2023; Gutiérrez-Fandiño et al., 2022), mientras los modelos multilingües de oraciones permiten explorar semejanzas entre textos (Reimers y Gurevych, 2020). Estas capacidades podrían apoyar la comparación de interpretaciones, pero requieren comprobar qué diferencias de significado reconocen. Para esta línea de trabajo, interesa distinguir variaciones de redacción de cambios en obligaciones o restricciones, y contrastar las estimaciones automáticas con lecturas humanas independientes.
+
+Las experiencias de descomposición de historias y mejora de criterios de aceptación muestran usos de la generación que necesitan revisión (Pavlič et al., 2025; Schwedt y Ströder, 2025). Su conexión con el vacío planteado conduce a evaluar tanto el cambio en las interpretaciones como la conservación de la intención. Una reformulación podría aumentar el acuerdo entre lectores y, a la vez, eliminar una condición necesaria. El beneficio que se propone comprobar es una comprensión más compartida del requisito, respaldada por la intención confirmada de quien lo solicita.
+
+El cribado parcial en arXiv y la información lingüística incompleta limitan la cobertura del mapeo. La comparación de numerosos modelos en un mismo estudio también condiciona la diversidad del inventario. Además, la extracción no registró específicamente cambios de dispersión interpretativa tras una intervención. La síntesis delimita esta pregunta sin acreditar ausencia absoluta de soluciones. Una revisión focalizada debe precisar la relación entre detección, interpretación humana y efecto de la intervención.
+
+@H Conclusiones
+
+En relación con los recursos empleados (RQ1), los modelos generativos, las representaciones contextuales y el conocimiento explícito ofrecen funciones complementarias. El inventario aporta candidatos para representar requisitos, comparar significados y proponer aclaraciones. Para investigar la ambigüedad, su utilidad está en localizar componentes que podrían integrarse en un método y comprobar qué diferencias de interpretación reconocen y ayudan a resolver.
+
+Respecto de las tareas (RQ2), predominan la estructuración, clasificación y generación, junto con aplicaciones de ambigüedad y calidad. Este resultado sitúa la ambigüedad dentro de una línea existente y orienta una evaluación más específica: comprobar cómo las intervenciones afectan a la comprensión del requisito. El resultado de interés es la reducción de diferencias de significado entre lectores, además de la detección de problemas textuales.
+
+Sobre el respaldo del español (RQ3), las vías de adaptación o sustitución abarcan más recursos que el soporte directo documentado. Esta oferta permite seleccionar candidatos para investigar la ambigüedad en español. Su evaluación deberá establecer si reconocen interpretaciones que cambian obligaciones, condiciones o restricciones. El soporte lingüístico proporciona un punto de partida, mientras la correspondencia entre sus resultados y la comprensión humana requiere comprobación específica.
+
+En cuanto a las aplicaciones en español (RQ4), la clasificación, similitud, ambigüedad y priorización aportan antecedentes y datos para nuevas comparaciones. La detección de ambigüedad se conecta directamente con el problema propuesto, mientras la similitud podría apoyar la comparación de lecturas. Investigar esa posibilidad exige definir el contexto, los lectores y el origen de los requisitos, para distinguir diferencias de significado de simples variaciones de redacción.
+
+Respecto de los vacíos (RQ5), queda por establecer, a partir de esta síntesis, cómo identificar y reducir la dispersión interpretativa de requisitos en español, conservando la intención de quien los solicita. El conocimiento buscado relaciona ambigüedad detectada, diferencias observadas entre lectores y efecto de una aclaración o reformulación. Esta pregunta delimita una investigación específica, cuya evidencia previa debe examinarse mediante una revisión focalizada.
+
+Finalmente, para la transferencia (RQ6), los recursos del español, sus adaptaciones y los modelos multilingües ofrecen candidatos para contrastar estimaciones automáticas con interpretaciones humanas. Se propone evaluar si la intervención reduce diferencias relevantes frente a una condición de comparación y conserva obligaciones, condiciones y excepciones. Esa evidencia permitiría fundamentar un método de resolución de ambigüedad guiado por dispersión interpretativa y valorar su utilidad en la revisión de requisitos.
+
+@H Disponibilidad del material complementario
+
+Los datos utilizados corresponden al suplemento disponible en https://github.com/kenjikv/sms_nlp4re, identificado mediante la publicación 1.1.0. El repositorio reúne la selección, la extracción, el inventario de recursos y los procedimientos para reproducir tablas y figuras. También conserva la procedencia de las incorporaciones y los candidatos pendientes. Esta documentación permite consultar el fundamento de las interpretaciones, localizar los estudios y utilizar la base como punto de partida para nuevas comparaciones.
+
+@REFS
