@@ -386,24 +386,24 @@ z
    <g id="patch_12">
     <path d="M 386.111515 191.741637 
 L 410.643605 191.741637 
-L 410.643605 125.007354 
-L 386.111515 125.007354 
+L 410.643605 121.400096 
+L 386.111515 121.400096 
 z
 " clip-path="url(#pfc5264052a)" style="fill: #23557b"/>
    </g>
    <g id="patch_13">
     <path d="M 421.157358 191.741637 
 L 445.689448 191.741637 
-L 445.689448 33.924077 
-L 421.157358 33.924077 
+L 445.689448 31.218633 
+L 421.157358 31.218633 
 z
 " clip-path="url(#pfc5264052a)" style="fill: #23557b"/>
    </g>
    <g id="patch_14">
     <path d="M 456.203201 191.741637 
 L 480.735291 191.741637 
-L 480.735291 92.542028 
-L 456.203201 92.542028 
+L 480.735291 88.934769 
+L 456.203201 88.934769 
 z
 " clip-path="url(#pfc5264052a)" style="fill: url(#h329558654e); stroke: #23557b; stroke-linejoin: miter"/>
    </g>
@@ -445,13 +445,13 @@ L 501.237109 191.741637
     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="363.331717" y="154.767237" transform="rotate(-0 363.331717 154.767237)">38</text>
    </g>
    <g id="text_33">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="398.37756" y="122.30191" transform="rotate(-0 398.37756 122.30191)">74</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="398.37756" y="118.694652" transform="rotate(-0 398.37756 118.694652)">78</text>
    </g>
    <g id="text_34">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="433.423403" y="31.218633" transform="rotate(-0 433.423403 31.218633)">175</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="433.423403" y="28.513189" transform="rotate(-0 433.423403 28.513189)">178</text>
    </g>
    <g id="text_35">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="468.469246" y="89.836584" transform="rotate(-0 468.469246 89.836584)">110</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="468.469246" y="86.229325" transform="rotate(-0 468.469246 86.229325)">114</text>
    </g>
   </g>
  </g>

@@ -1,0 +1,22 @@
+{
+  "index": 134,
+  "doi": "10.1109/RE59067.2024.00033",
+  "arxiv": "http://arxiv.org/abs/2406.04797v3",
+  "title": [
+    "Multi-Label Requirements Classification with Large Taxonomies"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        24
+      ]
+    ]
+  },
+  "venue": [
+    "2024 IEEE 32nd International Requirements Engineering Conference (RE)"
+  ],
+  "pdf_error": "HTTP Error 406: Not Acceptable"
+}

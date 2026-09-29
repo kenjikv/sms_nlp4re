@@ -1,0 +1,21 @@
+{
+  "index": 0,
+  "doi": "10.1109/RE68928.2026.00070",
+  "arxiv": "http://arxiv.org/abs/2609.28002v1",
+  "title": [
+    "LLM-Assisted Workflow for Structural Difference Visualization in Evolving Software Requirements"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        8
+      ]
+    ]
+  },
+  "venue": [
+    "2026 IEEE 34th International Requirements Engineering Conference (RE)"
+  ],
+  "text_chars": 20795
+}

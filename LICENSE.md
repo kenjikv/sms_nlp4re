@@ -19,4 +19,4 @@ Titular identificado para las aportaciones propias: Kenji Kawaida Villegas, 2026
 - Los textos completos conservados en `evidencia_local/` no forman parte del contenido versionado ni de la distribución preparada para GitHub.
 - El manuscrito Word y su fuente Markdown, dentro de `manuscrito/`, se incluyen como versión de trabajo del autor para consulta. No se les asigna aquí una licencia abierta de redistribución; su reutilización se rige por la autorización del autor y las condiciones editoriales que correspondan.
 
-La licencia de una aportación no garantiza exactitud, exhaustividad bibliográfica ni validación humana de las decisiones. Las limitaciones del estudio están descritas en `documentacion/LIMITACIONES.md`.
+La licencia de una aportación no garantiza exactitud, exhaustividad bibliográfica ni validación humana de las decisiones. El alcance del estudio y de la validación se describe en `documentacion/AMPLIACION_V8.md` y `documentacion/REVISION_DEL_AUTOR_V8.md`.

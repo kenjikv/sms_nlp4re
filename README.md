@@ -1,89 +1,47 @@
 # SMS_NLP4RE
 
-## Recursos léxico-semánticos en NLP4RE: un mapeo sistemático con atención al español
+## Recursos léxico-semánticos en NLP4RE y evidencia para el español
 
-**Paquete de investigación 1.0.0 · Manuscrito v6 · Cierre documental: septiembre de 2026**
+**Suplemento 1.1.0 · Manuscrito v8 · 28 de septiembre de 2026**
 
 [![Validación de datos y resultados](https://github.com/kenjikv/sms_nlp4re/actions/workflows/validar.yml/badge.svg)](https://github.com/kenjikv/sms_nlp4re/actions/workflows/validar.yml)
 
-Datos, decisiones de selección, inventario de recursos y programas de reproducción del mapeo de procesamiento del lenguaje natural aplicado a la ingeniería de requisitos. El estudio caracteriza recursos, tareas, lengua de los datos, evaluación y disponibilidad declarada, con atención al español.
+El suplemento reúne los datos y procedimientos del mapeo de recursos léxico-semánticos en ingeniería de requisitos. La versión actual incorpora once publicaciones formales con textos abiertos localizados en arXiv, conserva los 539 estudios anteriores y actualiza la interpretación, las tablas y las figuras.
 
-[Artículo en Word](manuscrito/Mapeo_Sistematico_NLP4RE_espanol_v6.docx) · [Metodología](documentacion/METODOLOGIA.md) · [Guía de datos](datos/README.md) · [Reproducir resultados](documentacion/REPRODUCIBILIDAD.md) · [Cómo citar](CITATION.cff)
+[Artículo v8](manuscrito/Mapeo_Sistematico_NLP4RE_espanol_v8.docx) · [Versión 1.1.0](https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.1.0) · [Método y procedencia](documentacion/AMPLIACION_V8.md) · [Revisión y validación del autor](documentacion/REVISION_DEL_AUTOR_V8.md)
 
-### Alcance del estudio
+| Unidad | Recuento | Alcance |
+|---|---:|---|
+| Estudios incluidos | 550 | 539 anteriores y once nuevos |
+| Análisis general | 544 | 533 principales anteriores y once nuevos |
+| Estudios complementarios | 6 | Conservados fuera de la distribución general |
+| Recursos concretos | 132 | Identificados en 204 estudios del análisis general |
+| Pares estudio–recurso | 389 | Usos únicos, sin menciones bibliográficas |
+| Estudios con datos españoles explícitos | 8 | Cuatro del análisis general y cuatro complementarios |
 
-| Unidad | Recuento | Interpretación |
-| --- | ---: | --- |
-| Registros identificados | 1.746 | 1.457 principales, 278 de búsqueda dirigida y 11 de la ronda de kappa |
-| Duplicados | 106 | Conservan el vínculo con el registro retenido |
-| Registros cribados | 1.640 | 834 excluidos, 267 no evaluables y 539 incluidos |
-| Estudios del análisis principal | 533 | Denominador de tareas, familias, evaluación y distribución anual |
-| Recursos concretos de RQ3 | 90 | Usados en 196 estudios del flujo principal |
-| Pares únicos estudio–recurso | 318 | Usos, excluidas las menciones sin aplicación |
-| Estudios con datos en español | 8 | Cuatro principales, dos dirigidos y dos de la ronda de kappa |
+El autor revisó y validó la selección de artículos, la extracción de datos, la clasificación de recursos y los resultados del corpus previo. El proceso incluyó validación por pares mediante kappa de Cohen. La ronda conservada documenta 18 pares de decisiones, 17 coincidencias y κ = 0,640; ese coeficiente corresponde a su muestra, sin resumir toda la revisión del autor. La asistencia de modelos y las comprobaciones computacionales apoyaron el proceso. La revisión del autor de las once incorporaciones se registra por separado.
 
-![Flujo de selección del mapeo](figuras/Figura_1_seleccion.png)
+### Alcance de la ampliación
 
-**Alcance de la reproducción.** Los programas recalculan la síntesis a partir de las tablas entregadas. No repiten la búsqueda histórica, la extracción mediante modelos de lenguaje ni una revisión humana. Las etiquetas «verificada» indican la comprobación documental descrita en los datos; no acreditan validación humana independiente. Consulte las [limitaciones](documentacion/LIMITACIONES.md).
+La consulta de arXiv recuperó 300 registros y su cribado es parcial: once incorporaciones, 22 ya incluidos, una exclusión anterior conservada, dos exclusiones por dominio, un registro con publicación sin confirmar y 263 pendientes de cribado. Los pendientes no aumentan los estudios incluidos. Tampoco se presenta esta ampliación como búsqueda exhaustiva de IEEE Xplore. Cuatro incorporaciones tienen publicación IEEE confirmada por DOI.
 
-### Qué contiene este repositorio
+Nueve recursos mantienen pendiente la comprobación de su soporte del español. Parte del aumento de diversidad procede de comparar numerosos codificadores dentro de un mismo estudio, por lo que no representa automáticamente más líneas independientes de investigación.
 
-```text
-SMS_NLP4RE/
-├── datos/                 Selección, extracción canónica, RQ3 y auditoría
-│   └── versiones_previas/ Instantáneas conservadas para trazabilidad
-├── resultados/            Agregaciones JSON, tablas CSV y validación
-├── figuras/               Cinco figuras en PNG y SVG
-├── scripts/               Normalización, validación, síntesis y figuras
-├── documentacion/         Método, diccionario, procedencia y limitaciones
-├── manuscrito/            Artículo v6 en Word y fuente de texto
-├── referencias/           Bibliografía y fuentes registradas en Word
-├── CITATION.cff           Metadatos de citación del suplemento
-├── CHANGELOG.md           Historial de versiones
-└── MANIFEST.sha256        Comprobación de integridad de los archivos
-```
+### Datos y reproducción
 
-La carpeta local `evidencia_local/` conserva los textos utilizados en la verificación y queda excluida de Git. Su índice público identifica la base textual y su huella digital, sin redistribuir los textos íntegros. Los dictámenes y las respuestas editoriales permanecen en el paquete de trabajo del autor.
+- [Extracción canónica](datos/extraccion/estudios_incluidos.csv) e [incorporaciones](datos/extraccion/incorporaciones_v8.csv).
+- [Registro completo de descubrimiento](datos/seleccion/descubrimiento_arxiv_v8.csv) y [selección canónica](datos/seleccion/seleccion_global_cribado.csv).
+- [Inventario de recursos](datos/recursos/inventario_RQ3_unidades_verificado.csv) y [pares estudio–recurso](datos/recursos/rq3_pares_estudio_unidad.csv).
+- [Procedencia editorial y textos abiertos](datos/auditoria/incorporaciones_v8.csv), con identificadores, enlaces y huellas de los textos consultados.
 
-### Reproducción rápida
+Con Python 3.12, `python scripts/reproducir.py --sin-figuras` verifica y recalcula los resultados usando la biblioteca estándar. Para regenerar también las figuras, instale las dependencias de `requirements.txt` y ejecute `python scripts/reproducir.py`.
 
-Requiere Python 3.12. Para validar datos y regenerar tablas, basta la biblioteca estándar:
+La distribución pública ejecuta 23 comprobaciones de consistencia. Otros once controles de integridad textual requieren el archivo privado `evidencia_local/textos_usados_verificacion.csv` y se informan como no ejecutados cuando no está presente. Los 34 controles se ejecutaron en el entorno local que conserva esos textos. Estas comprobaciones complementan la validación del autor; no vuelven a realizar la búsqueda o la extracción semántica.
 
-```bash
-python scripts/reproducir.py --sin-figuras
-```
+### Disponibilidad y citación
 
-Para regenerar también las figuras:
+Kawaida Villegas, K. (2026). *SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE* (versión 1.1.0, manuscrito v8) [Conjunto de datos y programas]. GitHub. https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.1.0
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/reproducir.py
-```
+La [versión 1.0.0](https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0) conserva el suplemento asociado al manuscrito v6. La documentación bajo `documentacion/historico_v6` es histórica; las aclaraciones vigentes de revisión humana están en `documentacion/REVISION_DEL_AUTOR_V8.md`. No se ha asignado un DOI al suplemento.
 
-En Windows, active el entorno con `.venv\Scripts\Activate.ps1`. Los resultados se escriben dentro del repositorio. La comparación con la referencia del artículo debe finalizar sin diferencias. Consulte [reproducción y verificaciones](documentacion/REPRODUCIBILIDAD.md).
-
-### Consultar y reutilizar los datos
-
-- Comience por `datos/extraccion/estudios_incluidos.csv`: es la extracción canónica del paquete.
-- Use `estado`, no `decision_final`, para contar la selección definitiva.
-- Para RQ3, filtre `cuenta_como_uso_rq3 == True`; las restantes filas conservan menciones y categorías que no forman parte de los 318 usos.
-- Los porcentajes de familias, métricas y conjuntos de evaluación son multietiqueta: pueden sumar más del 100 %.
-- Mantenga separados el idioma del artículo y la lengua de los requisitos procesados.
-
-El [diccionario de campos](documentacion/DICCIONARIO_DATOS.md) explica los indicadores. El [catálogo de archivos](documentacion/CATALOGO_DATOS.csv) y el [esquema](documentacion/esquema_datos.json) permiten localizar cada tabla y sus columnas.
-
-### Citación y disponibilidad
-
-Autor del paquete: **Kenji Kawaida Villegas**. La versión **1.0.0** está vinculada al manuscrito **v6**. El repositorio público está disponible en [GitHub](https://github.com/kenjikv/sms_nlp4re) y la versión identificada en [v1.0.0](https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0). El depósito en Zenodo y la asignación de DOI permanecen pendientes.
-
-Citación: Kawaida Villegas, K. (2026). *SMS_NLP4RE: datos y materiales del mapeo sistemático de recursos léxico-semánticos en NLP4RE* (versión 1.0.0) [Conjunto de datos y programas]. GitHub. https://github.com/kenjikv/sms_nlp4re/releases/tag/v1.0.0
-
-Los programas propios se distribuyen bajo MIT. La documentación original y las aportaciones propias a los datos se ofrecen bajo CC BY 4.0, con las exclusiones indicadas en [LICENSE.md](LICENSE.md). Las citas, los metadatos externos, los recursos estudiados y el manuscrito tienen el alcance de derechos indicado allí.
-
-Para proponer una corrección, siga [CONTRIBUTING.md](CONTRIBUTING.md) e identifique el registro, campo y evidencia. Las correcciones deben conservar trazabilidad y no transformar comprobaciones automáticas en declaraciones de revisión humana.
-
-### English overview
-
-This repository accompanies a systematic mapping of lexical-semantic resources in natural language processing for requirements engineering, with a focus on Spanish. It contains screening decisions, study-level extraction, a resource inventory, audit records, and scripts for reproducing aggregate results and five figures. Main analyses cover 533 studies; 539 are included across all streams. The package supports computational checking of the supplied extraction, not a rerun of the historical search or independent human validation of all decisions.
+Los textos completos de terceros se conservan en el archivo local de investigación. El repositorio público ofrece sus enlaces y metadatos. Los programas y las aportaciones originales mantienen las condiciones descritas en [LICENSE.md](LICENSE.md). El manuscrito se publica como versión de trabajo del autor.

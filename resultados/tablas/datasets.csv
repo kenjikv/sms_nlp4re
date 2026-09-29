@@ -1,72 +1,80 @@
 categoria,n,denominador,porcentaje
-18 open-source projects,1,533,0.1876
-AUTOSAR,1,533,0.1876
-AWARE,1,533,0.1876
-Aerospace,1,533,0.1876
-Agency Security Requirements Dataset (ASRD),1,533,0.1876
-Apache Kafka,1,533,0.1876
-Coal Mine Management Systems,1,533,0.1876
-Coquina Dataset,1,533,0.1876
-CrowdRE,2,533,0.3752
-DOORS,3,533,0.5629
-DOSSPRE,1,533,0.1876
-DigiGov RFP dataset,1,533,0.1876
-E2EDev,1,533,0.1876
-EHR,1,533,0.1876
-EMSE,1,533,0.1876
-EXINFM,1,533,0.1876
-FR_NFR,2,533,0.3752
-Fault Tolerant System Services (FTSS) and Scheduling Services of NASA's X-38 Crew Return Vehicle,1,533,0.1876
-Fault-Prone SRS dataset,1,533,0.1876
-Fault‐Prone SRS dataset,1,533,0.1876
-Functional–Non-Functional Requirements (FR–NFR) dataset,1,533,0.1876
-GIS dataset,1,533,0.1876
-HR,1,533,0.1876
-IEEE Dataport,1,533,0.1876
-ISBSG,1,533,0.1876
-IoT SRS-extracted data,1,533,0.1876
-Kids Help Phone,1,533,0.1876
-Mozilla Firefox,1,533,0.1876
-NASA,1,533,0.1876
-NASA JWST requirements,1,533,0.1876
-NFR-Review,2,533,0.3752
-NFR-SO,2,533,0.3752
-Natural2CTL,1,533,0.1876
-Northwind,1,533,0.1876
-OpenMRS,1,533,0.1876
-"PROMISE (NFR, PROMISE_exp y variantes)",31,533,5.8161
-PURE,13,533,2.4390
-Penn Tree Bank Corpus,1,533,0.1876
-RE'17 dataset challenge,1,533,0.1876
-REQuestA,1,533,0.1876
-RQA,1,533,0.1876
-ReqNet,1,533,0.1876
-Request For Information (RFI) documents,1,533,0.1876
-SIData,1,533,0.1876
-SILo,1,533,0.1876
-SRE,1,533,0.1876
-SRS corpus,1,533,0.1876
-SRS4.0,1,533,0.1876
-SecReq,3,533,0.5629
-Social Housing,1,533,0.1876
-Software Requirements,1,533,0.1876
-Stack Overflow corpus,1,533,0.1876
-StringUtils-style utility functions,1,533,0.1876
-TESA Documentation,1,533,0.1876
-Text2UML,1,533,0.1876
-Trident,1,533,0.1876
-UniClass,1,533,0.1876
-University,1,533,0.1876
-WARC,1,533,0.1876
-Wikipedia,1,533,0.1876
-"bancos de trazabilidad (iTrust, eTour, eANCI, SMOS y afines)",1,533,0.1876
-conjunto propio (sin nombre),173,533,32.4578
-data processing agreements (DPAs),1,533,0.1876
-dataset 1,1,533,0.1876
-dataset 2,1,533,0.1876
-draft Euro 7 emissions regulation,1,533,0.1876
-expert-validated datasets,1,533,0.1876
-four open datasets,1,533,0.1876
-nine cyber-physical systems from Lockheed Martin,1,533,0.1876
-reseñas de aplicaciones,2,533,0.3752
-ten diverse datasets,1,533,0.1876
+18 open-source projects,1,544,0.1838
+AUTOSAR,1,544,0.1838
+AWARE,1,544,0.1838
+Aerospace,1,544,0.1838
+Agency Security Requirements Dataset (ASRD),1,544,0.1838
+Apache Kafka,1,544,0.1838
+"Bazin et al. 2024, historias de 67 sitios",1,544,0.1838
+CCHIT,1,544,0.1838
+CM1,1,544,0.1838
+Coal Mine Management Systems,1,544,0.1838
+Coquina Dataset,1,544,0.1838
+CrowdRE,2,544,0.3676
+DOORS,3,544,0.5515
+DOSSPRE,1,544,0.1838
+DigiGov RFP dataset,1,544,0.1838
+E2EDev,1,544,0.1838
+EHR,1,544,0.1838
+EMSE,1,544,0.1838
+EXINFM,1,544,0.1838
+EasyClinic,1,544,0.1838
+FR_NFR,2,544,0.3676
+Fault Tolerant System Services (FTSS) and Scheduling Services of NASA's X-38 Crew Return Vehicle,1,544,0.1838
+Fault-Prone SRS dataset,1,544,0.1838
+Fault‐Prone SRS dataset,1,544,0.1838
+Functional–Non-Functional Requirements (FR–NFR) dataset,1,544,0.1838
+GDPR,1,544,0.1838
+GIS dataset,1,544,0.1838
+HIPAA,1,544,0.1838
+HR,1,544,0.1838
+IEEE Dataport,1,544,0.1838
+ISBSG,1,544,0.1838
+IoT SRS-extracted data,1,544,0.1838
+Kids Help Phone,1,544,0.1838
+"Lucassen et al., historias de usuario",1,544,0.1838
+Mozilla Firefox,1,544,0.1838
+NASA,1,544,0.1838
+NASA JWST requirements,1,544,0.1838
+NEO-DATASET,1,544,0.1838
+NFR-Review,2,544,0.3676
+NFR-SO,2,544,0.3676
+Natural2CTL,1,544,0.1838
+Northwind,1,544,0.1838
+OpenMRS,1,544,0.1838
+"PROMISE (NFR, PROMISE_exp y variantes)",31,544,5.6985
+PURE,15,544,2.7574
+Penn Tree Bank Corpus,1,544,0.1838
+RE'17 dataset challenge,1,544,0.1838
+REQuestA,1,544,0.1838
+RQA,1,544,0.1838
+ReqNet,1,544,0.1838
+Request For Information (RFI) documents,1,544,0.1838
+SIData,1,544,0.1838
+SILo,1,544,0.1838
+SRE,1,544,0.1838
+SRS corpus,1,544,0.1838
+SRS4.0,1,544,0.1838
+SecReq,3,544,0.5515
+Social Housing,1,544,0.1838
+Software Requirements,1,544,0.1838
+Stack Overflow corpus,1,544,0.1838
+StringUtils-style utility functions,1,544,0.1838
+TESA Documentation,1,544,0.1838
+Text2UML,1,544,0.1838
+Trident,1,544,0.1838
+UniClass,1,544,0.1838
+University,1,544,0.1838
+WARC,1,544,0.1838
+Wikipedia,1,544,0.1838
+"bancos de trazabilidad (iTrust, eTour, eANCI, SMOS y afines)",1,544,0.1838
+conjunto propio (sin nombre),179,544,32.9044
+data processing agreements (DPAs),1,544,0.1838
+dataset 1,1,544,0.1838
+dataset 2,1,544,0.1838
+draft Euro 7 emissions regulation,1,544,0.1838
+expert-validated datasets,1,544,0.1838
+four open datasets,1,544,0.1838
+nine cyber-physical systems from Lockheed Martin,1,544,0.1838
+reseñas de aplicaciones,2,544,0.3676
+ten diverse datasets,1,544,0.1838

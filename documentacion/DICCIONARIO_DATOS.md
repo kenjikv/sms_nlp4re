@@ -8,7 +8,7 @@ Este diccionario cubre todos los campos de los CSV del directorio `datos/`. El [
 - Los booleanos del CSV suelen ser `True` y `False`; en una lista JSON son `true` y `false`.
 - `estado` es la selección definitiva; `decision_final` conserva una fase previa.
 - `rid` vincula registros. `unidad` vincula recursos. No todas las menciones genéricas tienen inventario de recurso concreto.
-- «Verificada» significa comprobación documental automatizada según la entrega. No acredita por sí sola revisión humana.
+- «Verificada» identifica una comprobación documental o localización de citas. La revisión y validación del autor de selección, extracción, clasificación y resultados del corpus previo, y la validación por pares, se documentan por separado en REVISION_DEL_AUTOR_V8.md.
 - La extracción canónica recalcula `n_metricas_verificadas` desde `metricas`; los campos históricos quedan en sus instantáneas.
 
 ## Estructuras JSON principales
@@ -32,6 +32,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `accion` | Acción documentada para resolver la incidencia. |
 | `accion_para_reabrir` | Evidencia o acción requerida para reconsiderar el pendiente. |
 | `alcance_licencia` | Componente o versión a los que se aplica la evidencia de licencia. |
+| `alcance_revision` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `anio` | Año bibliográfico registrado. 2026 tiene cobertura parcial. |
 | `anterior` | Valor antes de la corrección. |
 | `aporta_espanol` | Indicador de contribución relativa al español según la extracción recibida. |
@@ -39,6 +40,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `archivo` | Archivo al que hace referencia la incidencia. |
 | `archivo_arxiv` | Nombre de archivo de trabajo declarado; el archivo no se redistribuye necesariamente. |
 | `artifact_id` | Identificador de artefacto del sistema que generó la entrega original. |
+| `arxiv` | Identificador o enlace de arXiv del candidato recuperado. |
 | `arxiv_id` | Identificador de arXiv recuperado, cuando consta. |
 | `arxiv_title` | Título asociado al resultado de arXiv. |
 | `autor` | Responsable o procedimiento consignado en el registro de cambio/incidencia. |
@@ -76,12 +78,14 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `conjuntos_datos_canonicos` | Nombres canónicos de conjuntos con evidencia comprobada, separados por punto y coma. |
 | `conservado_en_lugar` | rid del registro conservado en lugar del duplicado; no implica inclusión del destino. |
 | `consigna` | Identificador o descripción de la consigna recibida; no contiene necesariamente su texto completo. |
+| `consulta` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `consulta_ok` | Indicador de éxito de la consulta, distinto de elegibilidad del estudio. |
 | `contenido` | Descripción de contenido en el manifiesto original. |
 | `contraste_referencia_previa` | Resultado del contraste respecto de esa referencia anterior. |
 | `correcciones_cita` | Registro de ajustes de pasajes citados. |
-| `cuenta_como_uso_rq3` | True selecciona los 318 pares únicos del denominador principal de RQ3. |
+| `cuenta_como_uso_rq3` | True selecciona los 389 pares únicos del análisis general de RQ3. |
 | `cuenta_en_tabla_15` | Indicador de una tabla de trabajo histórica; no identifica la numeración del manuscrito v6. |
+| `decision` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `decision_auto` | Decisión automática agregada conservada como trazabilidad. |
 | `decision_final` | Decisión heredada de una fase anterior. Pese al nombre, no reemplaza estado. |
 | `decision_p1` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
@@ -92,6 +96,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `deteccion` | Procedencia y alcance de detección/contraste declarados por el archivo de origen. |
 | `disponibilidad` | Declaración de disponibilidad de código o datos, no prueba de acceso efectivo. |
 | `doi` | DOI conservado en la tabla, cuando consta; no se inventa si falta. |
+| `doi_declarado` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `dominio_pdf` | Dominio de procedencia de la copia localizada. |
 | `en_recribado` | Indicación de participación en la reconsideración. |
 | `es_retractacion` | Indicador recibido sobre retractación o documento de retractación. |
@@ -100,6 +105,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `estado` | Estado definitivo tras las correcciones y deduplicación; usarlo para reconstruir el flujo. |
 | `estado_actual_previo` | Estado registrado antes de la resolución de la incidencia. |
 | `estado_incidencia` | Estado de resolución de la incidencia en la entrega. |
+| `estado_publicacion` | Estado de confirmación de publicación formal para las incorporaciones. |
 | `estado_registro` | Estado del registro según la tabla de incidencias; el estado definitivo se consulta en selección. |
 | `estado_rq3` | Categoría final de evidencia y alternativa para español, utilizada en la síntesis RQ3. |
 | `estado_rq3_unidades` | Estados lingüísticos de las unidades asociadas al estudio. |
@@ -117,6 +123,8 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `eval_pasada3` | Resultado de una pasada automática conservado para trazabilidad; no corresponde a un evaluador humano. |
 | `evidencia_complementaria` | Evidencia adicional sobre la unidad. |
 | `familia` | Familia de recurso asignada; un estudio puede tener varias. |
+| `fecha` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
+| `fecha_busqueda` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `fecha_cierre_recuperacion` | Fecha declarada de cierre de los intentos de recuperación. |
 | `fecha_consulta` | Fecha de consulta declarada de las fuentes de atributos del recurso. |
 | `fecha_estado` | Fecha del estado consignado en la tabla de incidencias. |
@@ -124,10 +132,11 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `fila_csv` | Número de fila registrado en el archivo de origen; no garantiza igual posición tras reordenar. |
 | `filas` | Número de filas declarado en el manifiesto de origen. |
 | `flags` | Alertas del procedimiento recibido. |
-| `flujo` | Procedencia: principal, dirigida o ronda2_kappa. No mezclar denominadores entre flujos. |
+| `flujo` | Procedencia: principal, dirigida, ronda2_kappa o ampliacion_v8. No mezclar denominadores entre flujos. |
 | `found` | Indicador recibido de que se localizó una copia o resultado. |
 | `fuente_acceso` | Referencia o dirección de la fuente que respalda el atributo indicado. |
 | `fuente_autores` | Procedencia declarada de la autoría bibliográfica. |
+| `fuente_descubrimiento` | Referencia o dirección de la fuente que respalda el atributo indicado. |
 | `fuente_licencia` | Referencia o dirección de la fuente que respalda el atributo indicado. |
 | `fuente_soporte_espanol` | Referencia o dirección de la fuente que respalda el atributo indicado. |
 | `fuente_transferencia` | Referencia o dirección de la fuente que respalda el atributo indicado. |
@@ -137,17 +146,20 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `identidad_documental` | Estado del contraste de identidad entre título, resumen y fuente. |
 | `identidad_motivo` | Razón del resultado del contraste de identidad. |
 | `idioma_texto` | Idioma del texto bibliográfico; distinto de lengua_datos. |
+| `indice` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
+| `indice_arxiv` | Índice del resultado en la recuperación complementaria conservada. |
 | `indice_recurso` | Posición del recurso en la extracción de origen. |
 | `informacion_suficiente` | Evaluación asistida de suficiencia de información para decidir. |
 | `intento` | Identificador o número de intento de recuperación. |
 | `intentos_registrados` | Número o descripción de intentos de recuperación registrados. |
-| `interpretacion` | Alcance interpretativo del estado de recuperación. |
+| `interpretacion` | Anotación analítica de la aportación y sus límites. |
 | `jaccard_titulo` | Medida registrada de similitud entre títulos para contrastar identidad. |
 | `lengua_datos` | Lengua identificada de los datos procesados; espanol permite seleccionar el subconjunto español. |
 | `licencia` | Condiciones de licencia documentadas para el recurso, sin otorgar derechos nuevos. |
 | `licencia_normalizada` | Expresión normalizada de la licencia identificada. |
 | `lote` | Identificador de lote de procesamiento o recuperación. |
 | `medida` | Nombre de la cifra en la conciliación histórica. |
+| `metadatos_editoriales` | Ruta del archivo público de metadatos Crossref que identifica la publicación. |
 | `metricas` | Lista JSON de indicadores con nombre, cita, verificada y canonico. Es la fuente del recuento de métricas. |
 | `metricas_canonicas` | Nombres canónicos con evidencia comprobada, separados por punto y coma. |
 | `modelo` | Identificador declarado del modelo/procedimiento; no es una verificación independiente de su identidad. |
@@ -189,6 +201,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `recursos` | Lista JSON de recursos con nombre, familia, rol y cita; la mención sola no acredita uso. |
 | `recursos_verif` | Lista JSON de comprobaciones asociadas a los recursos; no representa validación humana. |
 | `referencia_previa` | Referencia de trabajo conservada de una revisión anterior. |
+| `registro_relacionado` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `reintento_citas` | Indicador o detalle de reintento de localización de citas. |
 | `resultado_recuperacion` | Resultado final registrado de recuperación. |
 | `resultados` | Resultados de los intentos de recuperación conservados. |
@@ -205,6 +218,7 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `subtipo_no_estudio` | Subtipo identificado cuando el documento no corresponde a un estudio primario elegible. |
 | `tarea_principal` | Categoría principal asignada al propósito del estudio; una por incluido. |
 | `tareas_secundarias` | Lista JSON de tareas adicionales; no sustituye la categoría principal. |
+| `texto_abierto` | Enlace a la fuente abierta consultada; el texto completo se conserva localmente. |
 | `texto_usado_en_recribado` | Indicación de uso del texto recuperado en la reconsideración. |
 | `texto_valido` | Indicador recibido de validez del texto recuperado para el procedimiento. |
 | `tipo` | Tipo de unidad en inventario o clase de incidencia, según el archivo. |
@@ -223,6 +237,8 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `tried` | Vías o intentos realizados, en el formato de origen. |
 | `unidad` | Nombre normalizado de la unidad de recurso o categoría. |
 | `unidades_rq3` | Unidades RQ3 asociadas al estudio en la extracción. |
+| `url_publicacion` | Enlace al DOI de la publicación editorial. |
+| `url_texto_abierto` | Enlace al registro de la versión abierta consultada. |
 | `usado_con_datos_en_espanol` | Indicador de uso documentado con datos españoles, distinto de soporte general del proveedor. |
 | `v13_fallidas` | Comprobaciones fallidas de una pasada histórica v1.3. |
 | `v13_tarea_ok` | Comprobación de la tarea en la pasada histórica v1.3. |
@@ -241,7 +257,9 @@ Los valores `canonico` son etiquetas normalizadas de la extracción recibida, no
 | `verificacion_citas` | Detalle o estado de comprobación de citas; conservar el alcance automático declarado. |
 | `version` | Versión identificada del recurso, cuando consta. |
 | `version_consultada` | Versión consultada en la documentación de la unidad. |
+| `version_datos` | Campo auxiliar heredado del paquete de origen; no interviene en las agregaciones de esta versión. Su definición operacional original no está documentada por separado. |
 | `version_id` | Identificador de versión del sistema de origen. |
+| `version_texto` | Identificador de la versión abierta consultada. |
 | `version_verificada` | Versión para la que se comprobó evidencia. |
 | `versiones_comparten_soporte` | Indicación recibida sobre soporte compartido entre variantes. |
 | `versiones_mismo_soporte` | Comprobación adicional recibida sobre homogeneidad de soporte entre versiones. |

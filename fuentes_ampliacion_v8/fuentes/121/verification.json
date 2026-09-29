@@ -1,0 +1,22 @@
+{
+  "index": 121,
+  "doi": "10.1109/RE59067.2024.00046",
+  "arxiv": "http://arxiv.org/abs/2408.10886v1",
+  "title": [
+    "Leveraging LLMs for the Quality Assurance of Software Requirements"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        24
+      ]
+    ]
+  },
+  "venue": [
+    "2024 IEEE 32nd International Requirements Engineering Conference (RE)"
+  ],
+  "text_chars": 67458
+}

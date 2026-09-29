@@ -1,5 +1,5 @@
 {
-  "cribados": 1640,
+  "cribados": 1651,
   "duplicados": 106,
   "estados": {
     "CE1": 145,
@@ -8,17 +8,18 @@
     "CE4": 9,
     "CE5": 106,
     "CE6": 53,
-    "INCLUIDO": 539,
+    "INCLUIDO": 550,
     "NO-CI1": 479,
     "NO_EVALUABLE": 267
   },
   "excluidos": 834,
   "flujos": {
+    "ampliacion_v8": 11,
     "dirigida": 278,
     "principal": 1457,
     "ronda2_kappa": 11
   },
-  "identificados": 1746,
-  "incluidos": 539,
+  "identificados": 1757,
+  "incluidos": 550,
   "no_evaluados": 267
 }

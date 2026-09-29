@@ -1,11 +1,15 @@
 categoria,n,denominador,porcentaje
-F1 o medida F,93,533,17.4484
-acuerdo entre evaluadores,9,533,1.6886
-exactitud (accuracy),78,533,14.6341
-exhaustividad (recall),63,533,11.8199
-"métricas de generación (BLEU, ROUGE, METEOR, BERTScore)",9,533,1.6886
-métricas de recuperación o ranking,9,533,1.6886
-otras,108,533,20.2627
-precisión,63,533,11.8199
-similitud (coseno o semántica),15,533,2.8143
-tiempo o latencia,19,533,3.5647
+AUC,1,544,0.1838
+F1 o medida F,95,544,17.4632
+F2,2,544,0.3676
+Kappa,1,544,0.1838
+MAP,1,544,0.1838
+acuerdo entre evaluadores,9,544,1.6544
+exactitud (accuracy),79,544,14.5221
+exhaustividad (recall),66,544,12.1324
+"métricas de generación (BLEU, ROUGE, METEOR, BERTScore)",9,544,1.6544
+métricas de recuperación o ranking,9,544,1.6544
+otras,108,544,19.8529
+precisión,66,544,12.1324
+similitud (coseno o semántica),15,544,2.7574
+tiempo o latencia,19,544,3.4926

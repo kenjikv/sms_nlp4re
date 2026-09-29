@@ -38,32 +38,32 @@ z
    </g>
    <g id="patch_3">
     <path d="M 147.779531 32.572898 
-L 383.061949 32.572898 
-L 383.061949 54.782688 
+L 384.589757 32.572898 
+L 384.589757 54.782688 
 L 147.779531 54.782688 
 z
 " clip-path="url(#p4020b447af)" style="fill: #23557b"/>
    </g>
    <g id="patch_4">
     <path d="M 147.779531 60.335135 
-L 320.421825 60.335135 
-L 320.421825 82.544926 
+L 321.949633 60.335135 
+L 321.949633 82.544926 
 L 147.779531 82.544926 
 z
 " clip-path="url(#p4020b447af)" style="fill: #23557b"/>
    </g>
    <g id="patch_5">
     <path d="M 147.779531 88.097373 
-L 303.615938 88.097373 
-L 303.615938 110.307163 
+L 309.72717 88.097373 
+L 309.72717 110.307163 
 L 147.779531 110.307163 
 z
 " clip-path="url(#p4020b447af)" style="fill: #23557b"/>
    </g>
    <g id="patch_6">
     <path d="M 147.779531 115.859611 
-L 270.004164 115.859611 
-L 270.004164 138.069401 
+L 274.587588 115.859611 
+L 274.587588 138.069401 
 L 147.779531 138.069401 
 z
 " clip-path="url(#p4020b447af)" style="fill: #23557b"/>
@@ -78,8 +78,8 @@ z
    </g>
    <g id="patch_8">
     <path d="M 147.779531 171.384087 
-L 182.919113 171.384087 
-L 182.919113 193.593877 
+L 185.974729 171.384087 
+L 185.974729 193.593877 
 L 147.779531 193.593877 
 z
 " clip-path="url(#p4020b447af)" style="fill: #23557b"/>
@@ -288,22 +288,22 @@ L 422.784955 259.945625
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_18">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="386.117565" y="46.275449" transform="rotate(-0 386.117565 46.275449)">154</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="387.645373" y="46.275449" transform="rotate(-0 387.645373 46.275449)">155</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="323.477441" y="74.037687" transform="rotate(-0 323.477441 74.037687)">113</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="325.005249" y="74.037687" transform="rotate(-0 325.005249 74.037687)">114</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="306.671554" y="101.799925" transform="rotate(-0 306.671554 101.799925)">102</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="312.782786" y="101.799925" transform="rotate(-0 312.782786 101.799925)">106</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="273.05978" y="129.562162" transform="rotate(-0 273.05978 129.562162)">80</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="277.643204" y="129.562162" transform="rotate(-0 277.643204 129.562162)">83</text>
    </g>
    <g id="text_22">
     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="204.308424" y="157.3244" transform="rotate(-0 204.308424 157.3244)">35</text>
    </g>
    <g id="text_23">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="185.974729" y="185.086638" transform="rotate(-0 185.974729 185.086638)">23</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="189.030345" y="185.086638" transform="rotate(-0 189.030345 185.086638)">25</text>
    </g>
    <g id="text_24">
     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="175.280074" y="212.848876" transform="rotate(-0 175.280074 212.848876)">16</text>
@@ -312,7 +312,7 @@ L 422.784955 259.945625
     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="166.113226" y="240.611113" transform="rotate(-0 166.113226 240.611113)">10</text>
    </g>
    <g id="text_26">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="285.282243" y="15.745625" transform="rotate(-0 285.282243 15.745625)">Principal (n = 533)</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="285.282243" y="15.745625" transform="rotate(-0 285.282243 15.745625)">General ampliado (n = 544)</text>
    </g>
   </g>
   <g id="axes_2">

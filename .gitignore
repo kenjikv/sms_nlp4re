@@ -16,3 +16,8 @@ Thumbs.db
 !.env.example
 .idea/
 .vscode/
+
+# Versiones locales con textos completos de terceros
+/versiones/
+/fuentes_ampliacion_v8/**/paper.pdf
+/fuentes_ampliacion_v8/**/paper.txt

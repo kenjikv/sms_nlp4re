@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import csv
+csv.field_size_limit(10_000_000)
 import json
 
 ROOT = Path(__file__).resolve().parent.parent

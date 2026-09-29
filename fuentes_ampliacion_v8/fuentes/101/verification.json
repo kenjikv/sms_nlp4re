@@ -1,0 +1,22 @@
+{
+  "index": 101,
+  "doi": "10.1007/s10664-026-10827-1",
+  "arxiv": "http://arxiv.org/abs/2502.04916v8",
+  "title": [
+    "Classifier or prompt: A case study on legal requirements traceability"
+  ],
+  "type": "journal-article",
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        2
+      ]
+    ]
+  },
+  "venue": [
+    "Empirical Software Engineering"
+  ],
+  "text_chars": 199319
+}

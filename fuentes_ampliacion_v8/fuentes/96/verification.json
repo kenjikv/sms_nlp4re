@@ -1,0 +1,20 @@
+{
+  "index": 96,
+  "doi": "10.5220/0013360500003928",
+  "arxiv": "http://arxiv.org/abs/2504.08666v1",
+  "title": [
+    "Variability-Driven User-Story Generation Using LLM and Triadic Concept Analysis"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2025
+      ]
+    ]
+  },
+  "venue": [
+    "Proceedings of the 20th International Conference on Evaluation of Novel Approaches to Software Engineering"
+  ],
+  "pdf_error": "HTTP Error 406: Not Acceptable"
+}

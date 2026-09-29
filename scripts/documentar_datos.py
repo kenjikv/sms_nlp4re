@@ -8,7 +8,7 @@ from comun import ROOT, leer, guardar_json, escribir_csv
 
 DESCRIPCIONES = {
     "rid": "Identificador estable del registro; clave de relación entre selección, extracción, evidencias y pares.",
-    "flujo": "Procedencia: principal, dirigida o ronda2_kappa. No mezclar denominadores entre flujos.",
+    "flujo": "Procedencia: principal, dirigida, ronda2_kappa o ampliacion_v8. No mezclar denominadores entre flujos.",
     "oa_id": "Identificador de OpenAlex registrado; puede estar ausente en registros complementarios.",
     "doi": "DOI conservado en la tabla, cuando consta; no se inventa si falta.",
     "anio": "Año bibliográfico registrado. 2026 tiene cobertura parcial.",
@@ -90,7 +90,7 @@ DESCRIPCIONES = {
     "rol": "Relación del recurso con el estudio; solo_menciona se excluye del uso.",
     "nivel_unidad": "Nivel de concreción: recurso concreto, familia u otra categoría registrada.",
     "primera_aparicion": "Indicador recibido de primera aparición del par para evitar duplicación.",
-    "cuenta_como_uso_rq3": "True selecciona los 318 pares únicos del denominador principal de RQ3.",
+    "cuenta_como_uso_rq3": "True selecciona los 389 pares únicos del análisis general de RQ3.",
     "cuenta_en_tabla_15": "Indicador de una tabla de trabajo histórica; no identifica la numeración del manuscrito v6.",
     "motivo_no_cuenta": "Razón por la que la fila no entra en el recuento RQ3.",
     "unidades_rq3": "Unidades RQ3 asociadas al estudio en la extracción.",
@@ -186,6 +186,8 @@ DESCRIPCIONES = {
     "papel": "Papel del archivo en el paquete original.",
 }
 
+
+DESCRIPCIONES.update({'estado_publicacion': 'Estado de confirmación de publicación formal para las incorporaciones.', 'url_publicacion': 'Enlace al DOI de la publicación editorial.', 'url_texto_abierto': 'Enlace al registro de la versión abierta consultada.', 'version_texto': 'Identificador de la versión abierta consultada.', 'fecha_verificacion': 'Fecha de la comprobación documental registrada.', 'indice_arxiv': 'Índice del resultado en la recuperación complementaria conservada.', 'metadatos_editoriales': 'Ruta del archivo público de metadatos Crossref que identifica la publicación.', 'texto_abierto': 'Enlace a la fuente abierta consultada; el texto completo se conserva localmente.', 'interpretacion': 'Anotación analítica de la aportación y sus límites.', 'arxiv': 'Identificador o enlace de arXiv del candidato recuperado.', 'estado_descubrimiento': 'Estado de seguimiento del candidato en la ampliación, separado de la selección histórica.'})
 
 def descripcion(nombre):
     if nombre in DESCRIPCIONES:
@@ -286,7 +288,7 @@ Este diccionario cubre todos los campos de los CSV del directorio `datos/`. El [
 - Los booleanos del CSV suelen ser `True` y `False`; en una lista JSON son `true` y `false`.
 - `estado` es la selección definitiva; `decision_final` conserva una fase previa.
 - `rid` vincula registros. `unidad` vincula recursos. No todas las menciones genéricas tienen inventario de recurso concreto.
-- «Verificada» significa comprobación documental automatizada según la entrega. No acredita por sí sola revisión humana.
+- «Verificada» identifica una comprobación documental o localización de citas. La revisión y validación del autor de selección, extracción, clasificación y resultados del corpus previo, y la validación por pares, se documentan por separado en REVISION_DEL_AUTOR_V8.md.
 - La extracción canónica recalcula `n_metricas_verificadas` desde `metricas`; los campos históricos quedan en sus instantáneas.
 
 ## Estructuras JSON principales

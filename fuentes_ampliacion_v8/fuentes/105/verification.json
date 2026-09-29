@@ -1,0 +1,22 @@
+{
+  "index": 105,
+  "doi": "10.1109/ICSE55347.2025.00217",
+  "arxiv": "http://arxiv.org/abs/2501.15181v2",
+  "title": [
+    "From Bugs to Benefits: Improving User Stories by Leveraging Crowd Knowledge with CrUISE-AC"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        26
+      ]
+    ]
+  },
+  "venue": [
+    "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+  ],
+  "text_chars": 88312
+}

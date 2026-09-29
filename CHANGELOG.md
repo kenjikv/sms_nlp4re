@@ -1,17 +1,13 @@
-# Historial de versiones
+# Historial de cambios
 
-## 1.0.0 — 2026-09-27
+## 1.1.0 — Manuscrito v8
 
-Primera versión del repositorio de investigación, basada en el manuscrito v6 y publicada en GitHub.
+Se incorporan once publicaciones formales: 550 estudios incluidos y 544 en el análisis general. Se actualizan la extracción, el inventario (132 recursos), los pares estudio–recurso (389), las tablas y las cinco figuras. El manuscrito interpreta los resultados y vincula las conclusiones con RQ1–RQ6.
 
-- Organización de selección, extracción, inventario RQ3, auditoría, referencias y artículo.
-- Conservación de instantáneas de origen y registro de 12 correcciones previas de v6.
-- Normalización de seis contadores en tres registros y eliminación de dos alias de métricas; los resultados agregados de v6 permanecen iguales.
-- Programas para reproducir agregaciones, tablas y cinco figuras desde rutas portables.
-- Verificación de identificadores, relaciones, duplicados, denominadores y referencia numérica.
-- Guías de método, datos, límites y citación; catálogo y esquema de columnas.
-- Evidencia textual completa separada en una carpeta local excluida de Git.
-- Metadatos de citación con la dirección pública real y la fecha de publicación local.
-- Publicación de la rama `main` y la versión `v1.0.0` en `kenjikv/sms_nlp4re`; DOI pendiente.
+La redacción reconoce la validación del autor de selección, extracción, clasificación y resultados del corpus previo, además de la validación por pares con kappa de Cohen. Se mantienen diferenciadas las once incorporaciones nuevas y los candidatos pendientes. El apartado de disponibilidad enlaza el repositorio y esta versión del suplemento.
 
-La fecha corresponde al día local de preparación y publicación (America/La_Paz). La publicación en GitHub se registra el 28 de septiembre en UTC. No se ha realizado un depósito en Zenodo.
+La distribución pública ofrece metadatos y enlaces a los textos de terceros. Los controles que requieren los textos completos locales se identifican por separado.
+
+## 1.0.0 — Manuscrito v6
+
+Suplemento inicial conservado en la etiqueta v1.0.0.

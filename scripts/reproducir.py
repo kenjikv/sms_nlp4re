@@ -16,8 +16,7 @@ def main():
     env = os.environ.copy()
     env.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
     nombres = [
-        "normalizar_extraccion.py",
-        "validar_datos.py",
+        "validar_v8.py",
         "recalcular_resultados.py",
     ]
     if not args.sin_figuras:

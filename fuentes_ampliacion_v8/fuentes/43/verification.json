@@ -1,0 +1,22 @@
+{
+  "index": 43,
+  "doi": "10.1007/s00766-026-00460-1",
+  "arxiv": "http://arxiv.org/abs/2602.01253v1",
+  "title": [
+    "TraceLLM: leveraging large language models with prompt engineering for enhanced requirements traceability"
+  ],
+  "type": "journal-article",
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        19
+      ]
+    ]
+  },
+  "venue": [
+    "Requirements Engineering"
+  ],
+  "pdf_error": "IncompleteRead(1048576 bytes read, 10104576 more expected)"
+}

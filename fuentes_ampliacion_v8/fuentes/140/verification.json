@@ -1,0 +1,22 @@
+{
+  "index": 140,
+  "doi": "10.1109/RE59067.2024.00056",
+  "arxiv": "http://arxiv.org/abs/2404.17842v1",
+  "title": [
+    "Using LLMs in Software Requirements Specifications: An Empirical Evaluation"
+  ],
+  "type": "proceedings-article",
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        24
+      ]
+    ]
+  },
+  "venue": [
+    "2024 IEEE 32nd International Requirements Engineering Conference (RE)"
+  ],
+  "text_chars": 85523
+}

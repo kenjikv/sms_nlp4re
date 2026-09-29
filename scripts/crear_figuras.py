@@ -1,4 +1,4 @@
-"""Cinco figuras del manuscrito v6; datos y rutas relativos al repositorio."""
+"""Cinco figuras del manuscrito v8; datos y rutas relativos al repositorio."""
 
 from pathlib import Path
 import csv, json
@@ -26,7 +26,7 @@ def read(n):
 main = [
     r
     for r in read("datos/extraccion/estudios_incluidos.csv")
-    if r["flujo"] == "principal"
+    if r["flujo"] in {"principal", "ampliacion_v8"}
 ]
 inv = read("datos/recursos/inventario_RQ3_unidades_verificado.csv")
 pairs = read("datos/recursos/rq3_pares_estudio_unidad.csv")
@@ -63,64 +63,20 @@ def save(fig, n):
     plt.close(fig)
 
 
-# Figure 1, one aggregate funnel with the three input flows explicit.
-fig, ax = plt.subplots(figsize=(7.2, 5.4))
-ax.set(xlim=(0, 10), ylim=(0, 10))
-ax.axis("off")
-
-
-def box(x, y, w, h, txt, color="#edf3f6"):
-    ax.add_patch(
-        FancyBboxPatch(
-            (x, y),
-            w,
-            h,
-            boxstyle="round,pad=0.06,rounding_size=0.05",
-            facecolor=color,
-            edgecolor=blue,
-            lw=1,
-        )
-    )
-    ax.text(x + w / 2, y + h / 2, txt, ha="center", va="center", fontsize=10.5)
-
-
-def arr(a, b):
-    ax.annotate(
-        "", xy=b, xytext=a, arrowprops={"arrowstyle": "->", "color": blue, "lw": 1.2}
-    )
-
-
-box(0.1, 8.4, 3, 1.05, f"Principal\n{flujo['flujos']['principal']:,}".replace(",", "."))
-box(3.5, 8.4, 3, 1.05, f"Dirigida al español\n{flujo['flujos']['dirigida']}")
-box(6.9, 8.4, 3, 1.05, f"Ronda de kappa\n{flujo['flujos']['ronda2_kappa']}")
-for x in [1.6, 5, 8.4]:
-    arr((x, 8.4), (5, 7.55))
-box(2.8, 6.45, 4.4, 1.1, f"Identificados: {flujo['identificados']:,}".replace(",", "."))
-box(7.55, 6.45, 2.35, 1.1, f"Duplicados\n{flujo['duplicados']}", "#f5eee3")
-arr((7.2, 7), (7.55, 7))
-arr((5, 6.45), (5, 5.7))
-box(2.8, 4.6, 4.4, 1.1, f"Cribados: {flujo['cribados']:,}".replace(",", "."))
-arr((4, 4.6), (1.6, 3.5))
-arr((6, 4.6), (8.4, 3.5))
-arr((5, 4.6), (5, 1.9))
-box(0.1, 2.35, 3, 1.15, f"Excluidos con motivo\n{flujo['excluidos']}", "#f5eee3")
-box(6.9, 2.35, 3, 1.15, f"No evaluados\n{flujo['no_evaluados']}", "#eeeeee")
-box(
-    2.8,
-    0.55,
-    4.4,
-    1.35,
-    f"Incluidos: {s['incluidos']}\n{s['principal']} + {s['dirigida']} + {s['ronda2']}",
-    "#d6e9ed",
-)
-ax.text(
-    5,
-    0.08,
-    "Los no evaluados se mantienen separados de las exclusiones por contenido.",
-    ha="center",
-    fontsize=9,
-)
-save(fig, "Figura_1_seleccion")
+# Figure 1: historical selection and bounded complementary discovery remain separate.
+fig, ax = plt.subplots(figsize=(7.2, 4.8))
+ax.set(xlim=(0,10),ylim=(0,10)); ax.axis("off")
+def box(x,y,w,h,txt,color="#edf3f6"):
+    ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.05",facecolor=color,edgecolor=blue,lw=1))
+    ax.text(x+w/2,y+h/2,txt,ha="center",va="center",fontsize=10)
+def arr(a,b):
+    ax.annotate("",xy=b,xytext=a,arrowprops={"arrowstyle":"->","color":blue,"lw":1.2})
+box(.2,7.5,4.4,1.9,"Base previa de OpenAlex\ny vías dirigidas\n1.746 registros / 539 incluidos\n267 pendientes de información")
+box(5.1,7.7,4.7,1.5,"Consulta complementaria en arXiv\n300 registros recuperados\nSolo publicaciones formales elegibles")
+box(5.1,3.6,4.7,3.3,"22 ya incluidos en la base\n1 exclusión previa conservada\n2 exclusiones por dominio\n1 publicación sin confirmar\n263 pendientes de cribado\n11 incorporaciones verificadas", "#f4f1e9")
+arr((7.45,7.7),(7.45,6.9));arr((2.4,7.5),(2.4,1.85));arr((7.45,3.6),(7.45,1.85))
+box(.8,.4,8.4,1.45,"Corpus actualizado: 550 estudios\nAnálisis general: 533 históricos + 11 nuevos = 544\nSeis estudios de vías dirigidas se conservan por separado", "#d6e9ed")
+save(fig,"Figura_1_seleccion")
 # Figure 2, annual output and tasks.
 years = list(range(2015, 2027))
 counts = [s["anio"][str(y)] for y in years]
@@ -206,6 +162,7 @@ states = [
     "sin soporte documentado; sin equivalente identificado",
     "soporte desconocido; sin equivalente identificado",
     "indeterminado: depende de la versión",
+    "soporte pendiente de verificación",
 ]
 countsres = Counter(r["estado_rq3"] for r in con)
 countsuse = Counter(r["estado_rq3"] for r in used)
@@ -215,12 +172,12 @@ valsres = [countsres[states[0]] + countsres[states[1]]] + [
 valsuse = [countsuse[states[0]] + countsuse[states[1]]] + [
     countsuse[x] for x in states[2:]
 ]
-colors = [blue, teal, "#71b8c3", "#b6dce2", "#b6dce2", orange, orange, grey]
-hatches = ["", "", "", "", "///", "", "///", ""]
+colors = [blue, teal, "#71b8c3", "#b6dce2", "#b6dce2", orange, orange, grey, "#e4e4e4"]
+hatches = ["", "", "", "", "///", "", "///", "", "xx"]
 fig, (ax, bx) = plt.subplots(
     2, 1, figsize=(8.1, 6.6), gridspec_kw={"height_ratios": [1, 1.7]}
 )
-for y, vs, n in [(1, valsres, 90), (0, valsuse, 318)]:
+for y, vs, n in [(1, valsres, len(con)), (0, valsuse, len(used))]:
     left = 0
     for v, c, h in zip(vs, colors, hatches):
         w = 100 * v / n
@@ -236,18 +193,19 @@ for y, vs, n in [(1, valsres, 90), (0, valsuse, 318)]:
                 fontsize=11,
             )
         left += w
-ax.set_yticks([1, 0], ["Recursos (90)", "Usos (318)"])
+ax.set_yticks([1, 0], [f"Recursos ({len(con)})", f"Usos ({len(used)})"])
 ax.set(xlim=(0, 100), xlabel="Porcentaje")
 ax.set_title(
     "a  Evidencia y alternativas para el español", loc="left", fontweight="bold"
 )
 leg = [
-    Patch(facecolor=blue, label="Evidencia directa según criterio documental"),
+    Patch(facecolor=blue, label="Respaldo directo del español"),
     Patch(facecolor=teal, label="Adaptación del mismo recurso"),
     Patch(facecolor="#71b8c3", label="Versión multilingüe"),
     Patch(facecolor="#b6dce2", label="Alternativa distinta"),
     Patch(facecolor=orange, label="Sin equivalente identificado"),
     Patch(facecolor=grey, label="Depende de la versión"),
+    Patch(facecolor="#e4e4e4",hatch="xx",label="Verificación pendiente"),
 ]
 ax.legend(
     handles=leg,
@@ -293,11 +251,11 @@ bx.set_yticks(y, labels, fontsize=10)
 bx.invert_yaxis()
 bx.set_xlim(0, 23)
 bx.set_xticks([0, 5, 10, 15, 20])
-bx.set_xlabel("Recursos (n = 37)")
+bx.set_xlabel("Recursos (n = 39)")
 bx.set_title(
     "b  Fuerza y alcance de la evidencia directa", loc="left", fontweight="bold", pad=13
 )
-fig.subplots_adjust(hspace=1.23, left=0.36, right=0.97, top=0.95, bottom=0.1)
+fig.subplots_adjust(hspace=1.55, left=0.36, right=0.97, top=0.95, bottom=0.1)
 save(fig, "Figura_4_disponibilidad_espanol")
 # Figure 5, partial coverage, separate denominators explicit.
 span = Counter(
@@ -318,7 +276,7 @@ ax.set_yticks(y, [tasklabels[t] for t in tasks])
 ax.invert_yaxis()
 ax.set_xlim(0, 180)
 bx.set_xlim(0, 5)
-ax.set_title("Principal (n = 533)", fontsize=11)
+ax.set_title("General ampliado (n = 544)", fontsize=11)
 bx.set_title("Datos en español (n = 8)", fontsize=11)
 ax.set_xlabel("Estudios")
 bx.set_xlabel("Estudios")

@@ -1,0 +1,29 @@
+{
+  "nuevos": 11,
+  "general": 544,
+  "total": 550,
+  "registro_candidatos": {
+    "INCLUIDO_V8": 11,
+    "PENDIENTE_DE_CRIBADO": 263,
+    "PENDIENTE_PUBLICACION": 1,
+    "YA_INCLUIDO": 22,
+    "EXCLUSION_PREVIA_CONSERVADA": 1,
+    "EXCLUIDO_DOMINIO": 2
+  },
+  "nuevas_unidades": 43,
+  "nuevos_pares": 76,
+  "nuevos_usos": 71,
+  "incorporaciones_indices": [
+    0,
+    24,
+    43,
+    96,
+    101,
+    105,
+    121,
+    130,
+    140,
+    146,
+    196
+  ]
+}

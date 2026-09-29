@@ -17,7 +17,7 @@ from comun import (
 
 def calcular():
     ext = leer(EXTRACCION)
-    principal = [r for r in ext if r["flujo"] == "principal"]
+    principal = [r for r in ext if r["flujo"] in {"principal", "ampliacion_v8"}]
     usos = [r for r in leer(PARES) if r["cuenta_como_uso_rq3"] == "True"]
     recursos = [r for r in leer(INVENTARIO) if r["tipo"] in TIPOS_CONCRETOS]
     flujos = Counter(r["flujo"] for r in ext)
@@ -135,7 +135,7 @@ def exportar_tablas(stats, embudo):
             filas,
             ["categoria", "n", "denominador", "porcentaje"],
         )
-    principal = [r for r in leer(EXTRACCION) if r["flujo"] == "principal"]
+    principal = [r for r in leer(EXTRACCION) if r["flujo"] in {"principal", "ampliacion_v8"}]
     cruces = Counter(
         (f, r["tarea_principal"])
         for r in principal
